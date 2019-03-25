@@ -48,7 +48,10 @@
           "automerge": true
         }
       ],
-      "prCreation": "not-pending"
+      "prCreation": "not-pending",
+      "travis": {
+        "enabled": true
+      }
     },
     "js-lib": {
       "extends": [
