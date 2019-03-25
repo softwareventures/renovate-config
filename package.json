@@ -26,12 +26,20 @@
     "js-lib": {
       "extends": [
         "config:js-lib"
-      ]
+      ],
+      "devDependencies": {
+        "automerge": true,
+        "automergeType": "branch"
+      }
     },
     "js-app": {
       "extends": [
         "config:js-app"
-      ]
+      ],
+      "devDependencies": {
+        "automerge": true,
+        "automergeType": "branch"
+      }
     }
   },
   "config": {
