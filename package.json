@@ -47,7 +47,8 @@
           ],
           "automerge": true
         }
-      ]
+      ],
+      "prCreation": "not-pending"
     },
     "js-lib": {
       "extends": [
