@@ -23,13 +23,12 @@
         "@softwareventures:js-lib"
       ]
     },
-    "js-lib": {
+    "common": {
       "extends": [
-        "config:js-lib"
+        ":automergeBranchPush"
       ],
       "devDependencies": {
-        "automerge": true,
-        "automergeType": "branch"
+        "automerge": true
       },
       "packageRules": [
         {
@@ -40,31 +39,20 @@
             "minor",
             "patch"
           ],
-          "automerge": true,
-          "automergeType": "branch"
+          "automerge": true
         }
+      ]
+    },
+    "js-lib": {
+      "extends": [
+        "config:js-lib",
+        "@softwareventures:common"
       ]
     },
     "js-app": {
       "extends": [
-        "config:js-app"
-      ],
-      "devDependencies": {
-        "automerge": true,
-        "automergeType": "branch"
-      },
-      "packageRules": [
-        {
-          "packagePatterns": [
-            "^@types/"
-          ],
-          "updateTypes": [
-            "minor",
-            "patch"
-          ],
-          "automerge": true,
-          "automergeType": "branch"
-        }
+        "config:js-app",
+        "@softwareventures:common"
       ]
     }
   },
