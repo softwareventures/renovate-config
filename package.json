@@ -54,7 +54,10 @@
       "extends": [
         "config:js-lib",
         "@softwareventures:common"
-      ]
+      ],
+      "dependencies": {
+        "rangeStrategy": "update-lockfile"
+      }
     },
     "js-app": {
       "extends": [
