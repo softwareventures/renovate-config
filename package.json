@@ -1,6 +1,6 @@
 {
   "name": "@softwareventures/renovate-config",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Standard renovate configuration for Software Ventures Limited",
   "keywords": [
     "renovate"
@@ -12,10 +12,12 @@
   "license": "ISC",
   "sideEffects": false,
   "scripts": {
-    "test": "echo No tests yet"
+    "test": "echo No tests yet",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "2.1.0"
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "15.13.3"
   },
   "renovate-config": {
     "default": {
