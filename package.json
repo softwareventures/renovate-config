@@ -61,7 +61,10 @@
         "@softwareventures:common"
       ],
       "dependencies": {
-        "rangeStrategy": "update-lockfile"
+        "rangeStrategy": "update-lockfile",
+        "patch": {
+          "semanticCommitType": "chore"
+        }
       }
     },
     "js-app": {
