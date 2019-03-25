@@ -59,6 +59,10 @@
       "extends": [
         "config:js-app",
         "@softwareventures:common"
+      ],
+      "postUpdateOptions": [
+        "npmDedupe",
+        "yarnDedupeHighest"
       ]
     }
   },
