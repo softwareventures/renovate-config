@@ -20,7 +20,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        ":js-lib"
+        "@softwareventures:js-lib"
       ]
     },
     "js-lib": {
