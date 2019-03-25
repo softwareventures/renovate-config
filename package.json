@@ -17,6 +17,23 @@
   "devDependencies": {
     "cz-conventional-changelog": "2.1.0"
   },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        ":js-lib"
+      ]
+    },
+    "js-lib": {
+      "extends": [
+        "config:js-lib"
+      ]
+    },
+    "js-app": {
+      "extends": [
+        "config:js-app"
+      ]
+    }
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
