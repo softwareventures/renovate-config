@@ -62,6 +62,7 @@
       ],
       "dependencies": {
         "rangeStrategy": "update-lockfile",
+        "separateMinorPatch": true,
         "patch": {
           "semanticCommitType": "chore",
           "automerge": true
