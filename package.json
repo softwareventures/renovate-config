@@ -30,6 +30,12 @@
       "devDependencies": {
         "automerge": true
       },
+      "pin": {
+        "automerge": true
+      },
+      "lockFileMaintenance": {
+        "automerge": true
+      },
       "packageRules": [
         {
           "packagePatterns": [
