@@ -27,7 +27,8 @@
     },
     "common": {
       "extends": [
-        ":automergeBranchPush"
+        ":automergeBranchPush",
+        ":semanticCommits"
       ],
       "devDependencies": {
         "automerge": true
