@@ -57,10 +57,10 @@
         "enabled": true
       }
     },
-    "js-lib": {
+    "common-lib": {
       "extends": [
-        "config:js-lib",
-        "@softwareventures:common"
+        "@softwareventures:common",
+        ":pinOnlyDevDependencies"
       ],
       "dependencies": {
         "rangeStrategy": "update-lockfile",
@@ -71,14 +71,36 @@
         }
       }
     },
+    "common-app": {
+      "extends": [
+        "@softwareventures:common",
+        ":pinAllExceptPeerDependencies"
+      ]
+    },
+    "js-lib": {
+      "extends": [
+        "config:js-lib",
+        "@softwareventures:common-lib"
+      ]
+    },
     "js-app": {
       "extends": [
         "config:js-app",
-        "@softwareventures:common"
+        "@softwareventures:common-app"
       ],
       "postUpdateOptions": [
         "npmDedupe",
         "yarnDedupeHighest"
+      ]
+    },
+    "rust-lib": {
+      "extends": [
+        "@softwareventures:common-lib"
+      ]
+    },
+    "rust-app": {
+      "extends": [
+        "@softwareventures:common-app"
       ]
     }
   },
