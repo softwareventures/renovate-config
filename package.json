@@ -28,7 +28,8 @@
     "common": {
       "extends": [
         ":automergeBranchPush",
-        ":semanticCommits"
+        ":semanticCommits",
+        ":maintainLockFilesWeekly"
       ],
       "devDependencies": {
         "automerge": true
