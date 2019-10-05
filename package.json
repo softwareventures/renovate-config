@@ -31,9 +31,6 @@
         ":semanticCommits",
         ":maintainLockFilesWeekly"
       ],
-      "devDependencies": {
-        "automerge": true
-      },
       "pin": {
         "automerge": true
       },
@@ -41,6 +38,12 @@
         "automerge": true
       },
       "packageRules": [
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "automerge": true
+        },
         {
           "packagePatterns": [
             "^@types/"
@@ -62,14 +65,19 @@
         "@softwareventures:common",
         ":pinOnlyDevDependencies"
       ],
-      "dependencies": {
-        "rangeStrategy": "update-lockfile",
-        "separateMinorPatch": true,
-        "patch": {
-          "semanticCommitType": "chore",
-          "automerge": true
+      "packageRules": [
+        {
+          "depTypeList": [
+            "dependencies"
+          ],
+          "rangeStrategy": "update-lockfile",
+          "separateMinorPatch": true,
+          "patch": {
+            "semanticCommitType": "chore",
+            "automerge": true
+          }
         }
-      }
+      ]
     },
     "common-app": {
       "extends": [
