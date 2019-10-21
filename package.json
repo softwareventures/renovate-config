@@ -83,7 +83,10 @@
       "extends": [
         "@softwareventures:common",
         ":pinAllExceptPeerDependencies"
-      ]
+      ],
+      "lockFileMaintenance": {
+        "semanticCommitType": "fix"
+      }
     },
     "js-lib": {
       "extends": [
