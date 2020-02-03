@@ -1,6 +1,6 @@
 /.idea
 /template/tsconfig.template.json
 /tslint.json
-/.travis.yml
+/.github
 *.ts
 !*.d.ts
