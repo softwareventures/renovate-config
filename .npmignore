@@ -1,6 +1,8 @@
 /.idea
-/template/tsconfig.template.json
+/yarn.lock
+/tsconfig.json
 /tslint.json
 /.github
+/renovate.json
 *.ts
 !*.d.ts
