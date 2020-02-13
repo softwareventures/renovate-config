@@ -12,11 +12,13 @@
   "license": "ISC",
   "sideEffects": false,
   "scripts": {
-    "test": "echo No tests yet",
+    "test": "renovate-config-validator",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.1.0",
+    "re2": "1.10.5",
+    "renovate": "19.131.8",
     "semantic-release": "17.0.3"
   },
   "renovate-config": {
