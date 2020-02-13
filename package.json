@@ -74,10 +74,23 @@
           ],
           "rangeStrategy": "update-lockfile",
           "separateMinorPatch": true,
-          "patch": {
-            "semanticCommitType": "chore",
-            "automerge": true
+          "semanticCommitType": "chore",
+          "automerge": true,
+          "major": {
+            "semanticCommitType": "fix",
+            "automerge": false
           }
+        },
+        {
+          "depTypeList": [
+            "dependencies"
+          ],
+          "matchCurrentVersion": "<1",
+          "updateTypes": [
+            "minor"
+          ],
+          "semanticCommitType": "fix",
+          "automerge": false
         }
       ]
     },
