@@ -547,10 +547,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk@2.614.0:
-  version "2.614.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.614.0.tgz#e954824c1b9e566691a24ed8491ebf1d68350d37"
-  integrity sha512-o7utaxDMo9ri1VyPKw8Kcmpy5uZOqMeok2cgur70iZ94zsLIRnHKrBv1wMBbyRGuUbfJRq76HGAS9QxdiSqQHw==
+aws-sdk@2.621.0:
+  version "2.621.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.621.0.tgz#73f9bcdd3f73df54c9f25cca2484b15789eb76dc"
+  integrity sha512-wf87zTPXx2cILc9kAKTXcSrAc+vCc7BxE7G8vPEWAreCDucLHbynachYQvwO5ql+I3Eq651/X2XjnY01niSTNw==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -4147,10 +4147,10 @@ node-gyp@^5.0.2, node-gyp@^5.0.7:
     tar "^4.4.12"
     which "^1.3.1"
 
-node-html-parser@1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.4.tgz#bff5b403da3c5061d189e922aafb193c8e1f6f92"
-  integrity sha512-qHwPdGyGr9pOZBoSgUOuNPG20QYZVN00lFcxKQgjPUODSxVH7obQeLVVawa3B4cfSNtLIeczSzoy/xYA8XG5WQ==
+node-html-parser@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.5.tgz#6656f1fdd7e9b262b38ce9fc6a07ca750409b282"
+  integrity sha512-EYtr1DX/I2jr1lrnzriC/tb9H+y2TmkcK8P4rL/MT98fesvLKxWR0Ru89IhSid77ZXYzJt35ucH2i5QWgq68/Q==
   dependencies:
     he "1.1.1"
 
@@ -5345,16 +5345,16 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.140.0:
-  version "19.140.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.140.0.tgz#5249ee55fd10215f095d309b4dcd2b3c9f4eb49a"
-  integrity sha512-pgJf3b70WRRtsUOnDk2iDDZMwlfWr8IP6J06wC/IOqdkH7N//Tu0v12TgRycvfO6+iGYkPZB6nU81bJKtvaiDg==
+renovate@19.141.0:
+  version "19.141.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.141.0.tgz#5cd08797994ec49b6da681a065e72748c672f4e1"
+  integrity sha512-vYh7My6QbQt7DotjDE1yyNGVHbgz98yguvk7g+IP/SxknxVbqYzEMNp+p75Z7Heu2E35rCAOgr0Bof3espJa8A==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
     "@snyk/ruby-semver" "2.0.4"
     "@yarnpkg/lockfile" "1.1.0"
-    aws-sdk "2.614.0"
+    aws-sdk "2.621.0"
     azure-devops-node-api "9.0.1"
     bunyan "1.8.12"
     cacache "13.0.1"
@@ -5390,7 +5390,7 @@ renovate@19.140.0:
     moment "2.24.0"
     moment-timezone "0.5.27"
     node-emoji "1.10.0"
-    node-html-parser "1.2.4"
+    node-html-parser "1.2.5"
     npm "6.13.7"
     p-all "2.1.0"
     parse-diff "0.7.0"
