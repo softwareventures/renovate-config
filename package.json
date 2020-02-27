@@ -54,7 +54,9 @@
             "^promise-ponyfill$",
             "^i32$",
             "^u32$",
-            "^semantic-release-s3-upload$"
+            "^semantic-release-s3-upload$",
+            "^tslib$",
+            "^typescript$"
           ],
           "updateTypes": [
             "minor",
