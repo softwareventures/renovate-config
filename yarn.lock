@@ -5335,10 +5335,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.157.1:
-  version "19.157.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.157.1.tgz#07c2de4bf8bcc06199811ce837f78135533a279e"
-  integrity sha512-rJlIJT7KDQQgewpdZSWx6TyKa+ZvN4g/dY4b7mAdYT5bum3yILGA+dz49PiyXOf2iBk2I8zOj/JlSh7cyK+EIg==
+renovate@19.157.2:
+  version "19.157.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.157.2.tgz#ed17c8c8348d316f6e230d4dad86bd9acaac22d7"
+  integrity sha512-Zpb1MV1xuT/z/NEJ72Xkr29P4jrStYbfFkUO+z41huk+5DHGf3TXsI61UGZ0qdKnEacTALNda3N0wQqqwPWxFQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
