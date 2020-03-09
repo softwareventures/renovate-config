@@ -76,8 +76,9 @@
         "yarnDedupeHighest"
       ]
     },
-    "common-lib": {
+    "lib": {
       "extends": [
+        "config:js-lib",
         "@softwareventures:common",
         ":pinOnlyDevDependencies"
       ],
@@ -108,8 +109,9 @@
         }
       ]
     },
-    "common-app": {
+    "app": {
       "extends": [
+        "config:js-app",
         "@softwareventures:common",
         ":pinAllExceptPeerDependencies"
       ],
@@ -117,26 +119,34 @@
         "semanticCommitType": "fix"
       }
     },
+    "common-lib": {
+      "extends": [
+        "@softwareventures:lib"
+      ]
+    },
+    "common-app": {
+      "extends": [
+        "@softwareventures:app"
+      ]
+    },
     "js-lib": {
       "extends": [
-        "config:js-lib",
-        "@softwareventures:common-lib"
+        "@softwareventures:lib"
       ]
     },
     "js-app": {
       "extends": [
-        "config:js-app",
-        "@softwareventures:common-app"
+        "@softwareventures:app"
       ]
     },
     "rust-lib": {
       "extends": [
-        "@softwareventures:common-lib"
+        "@softwareventures:lib"
       ]
     },
     "rust-app": {
       "extends": [
-        "@softwareventures:common-app"
+        "@softwareventures:app"
       ]
     }
   },
