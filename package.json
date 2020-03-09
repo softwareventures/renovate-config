@@ -68,9 +68,6 @@
         }
       ],
       "prCreation": "not-pending",
-      "travis": {
-        "enabled": true
-      },
       "postUpdateOptions": [
         "npmDedupe",
         "yarnDedupeHighest"
