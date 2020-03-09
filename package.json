@@ -56,7 +56,8 @@
             "^u32$",
             "^semantic-release-s3-upload$",
             "^tslib$",
-            "^typescript$"
+            "^typescript$",
+            "^is-integer-in-range$"
           ],
           "updateTypes": [
             "minor",
