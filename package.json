@@ -70,7 +70,11 @@
       "prCreation": "not-pending",
       "travis": {
         "enabled": true
-      }
+      },
+      "postUpdateOptions": [
+        "npmDedupe",
+        "yarnDedupeHighest"
+      ]
     },
     "common-lib": {
       "extends": [
@@ -123,10 +127,6 @@
       "extends": [
         "config:js-app",
         "@softwareventures:common-app"
-      ],
-      "postUpdateOptions": [
-        "npmDedupe",
-        "yarnDedupeHighest"
       ]
     },
     "rust-lib": {
