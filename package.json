@@ -47,6 +47,7 @@
           "automerge": true
         },
         {
+          "manager": "npm",
           "packagePatterns": [
             "^@types/",
             "^@softwareventures/",
