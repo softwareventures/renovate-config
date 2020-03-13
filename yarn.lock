@@ -4142,10 +4142,10 @@ node-gyp@^5.0.2, node-gyp@^5.1.0:
     tar "^4.4.12"
     which "^1.3.1"
 
-node-html-parser@1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.8.tgz#0e4574916d04aea3e98996d7a527be91b12fd4a9"
-  integrity sha512-uQGWoiNpSPfCu2h5LJIeAcrlK4VKnjcKmUuFV4O/BJRQOjnUSdohXuSi5S80BjxlNvHG19u9tRRJtjSlH1KUSQ==
+node-html-parser@1.2.12:
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.12.tgz#ee4f012ae1b56a270ff2abdf8714b44f8d05bf20"
+  integrity sha512-HnmSRgHz+nhXfaii1KBNGwtGBx8ClLZ+GDQHAUNJ43YR3krfJMSMcMwFW8qwrHioPJaiaZ6xrDkcGjlffF0rnw==
   dependencies:
     he "1.1.1"
 
@@ -5335,10 +5335,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.170.4:
-  version "19.170.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.170.4.tgz#1539dea9f8d3a7f737572a92c137d0e6bd2e02f7"
-  integrity sha512-NUZm3o4eVsMBX1h1j77etYMgmH8zRcU8ThyxRjub3+ZAxcnEmmOkwpfxBNqHwDe+LnDyAiXmh3iv8XD/YlFrLg==
+renovate@19.170.5:
+  version "19.170.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.170.5.tgz#43d7e81c7e372c9075cdbac5416d7ba7dd7e7a38"
+  integrity sha512-vmPEAtKSd3KT5hQhumEpx28isc+cLR9ofqFhQvfB5n8vxtGx8FLPKZAR8Zx1m/MlFouF20iUGXN091tX+YPZng==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -5380,7 +5380,7 @@ renovate@19.170.4:
     moment "2.24.0"
     moment-timezone "0.5.28"
     node-emoji "1.10.0"
-    node-html-parser "1.2.8"
+    node-html-parser "1.2.12"
     npm "6.14.2"
     p-all "2.1.0"
     parse-diff "0.7.0"
