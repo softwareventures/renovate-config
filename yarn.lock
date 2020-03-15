@@ -5335,10 +5335,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.171.1:
-  version "19.171.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.171.1.tgz#b916da7c88df13e0211f3fd4039c9ad825573f35"
-  integrity sha512-PtZ9vXYAdszGDzrAVlNoY5uusjaiEfxvCOYJ0C4jMEfkwM8ASv5+eEB8sNshM9UgM+cqpnfbCgJ5Xzr9ON7SNQ==
+renovate@19.171.2:
+  version "19.171.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.171.2.tgz#c7603e18b2066073375db9645719861417cd99db"
+  integrity sha512-uirfLDIaAUSagTYgQmR3f68qDv/Ar8ZX8kOjW8+DsMoWLtKPJwFKlU2BzSCo4LKDmmtIlPGYwsDYDt79/YDTvw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -5391,7 +5391,7 @@ renovate@19.171.1:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shortid "2.2.15"
-    simple-git "1.131.0"
+    simple-git "1.132.0"
     slugify "1.4.0"
     toml "3.0.0"
     traverse "0.6.6"
@@ -5800,10 +5800,10 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@1.131.0:
-  version "1.131.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.131.0.tgz#68d85bf6a706e418b8a92cae765d2ad358781e21"
-  integrity sha512-z/art7YYtmPnnLItT/j+nKwJt6ap6nHZ4D8sYo9PdCKK/ug56SN6m/evfxJk7uDV3e9JuCa8qIyDU2P3cxmiNQ==
+simple-git@1.132.0:
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.132.0.tgz#53ac4c5ec9e74e37c2fd461e23309f22fcdf09b1"
+  integrity sha512-xauHm1YqCTom1sC9eOjfq3/9RKiUA9iPnxBbrY2DdL8l4ADMu0jjM5l5lphQP5YWNqAL2aXC/OeuQ76vHtW5fg==
   dependencies:
     debug "^4.0.1"
 
