@@ -3178,10 +3178,10 @@ json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json5@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.2.tgz#43ef1f0af9835dd624751a6b7fa48874fb2d608e"
-  integrity sha512-MoUOQ4WdiN3yxhm7NEVJSJrieAo5hNSLQ5sj05OTRHPL9HOBy8u4Bu88jsC1jvqAdN+E1bJmsUcZH+1HQxliqQ==
+json5@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
+  integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
   dependencies:
     minimist "^1.2.5"
 
@@ -5352,10 +5352,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.201.3:
-  version "19.201.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.201.3.tgz#696ae022c915cb00f6501ad955b445d92e351093"
-  integrity sha512-DvSqxhcPd78FR9RYlVr5Cu8ENUOdJFrlbDwcJRd3X6619mXMbSnhUENGiKL6SO7R4afL5cItQ8f2iDMwyr14FA==
+renovate@19.201.4:
+  version "19.201.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.201.4.tgz#18d6d04f20c51a94460e304cda858f8c6ddb9336"
+  integrity sha512-k4QouM9cqX55QFJ0cHTRoPj9awGFCYZF9Pm9i+buv2zBEj0uICuiUluy4pPD0G0nnDWIMvqqQSI+4A7pth0MPw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.0"
@@ -5388,7 +5388,7 @@ renovate@19.201.3:
     js-yaml "3.13.1"
     json-dup-key-validator "1.0.2"
     json-stringify-pretty-compact "2.0.0"
-    json5 "2.1.2"
+    json5 "2.1.3"
     later "1.2.0"
     linkify-markdown "1.0.0"
     lodash "4.17.15"
