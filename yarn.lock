@@ -916,6 +916,14 @@ chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.1, chalk@^2.3.2, chalk@^2.4.
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chalk@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
@@ -5352,10 +5360,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.203.2:
-  version "19.203.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.203.2.tgz#b3b1305696850934028237fe196d34422dffda92"
-  integrity sha512-rYZuURsRBmnFBhEoz+zNH8P9nAL/JcmIM4TdJlCngbcrMLvQAOVEZ92hXKG3uL/p1iXKTSXoD5AE//DYbz/DOg==
+renovate@19.203.3:
+  version "19.203.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.203.3.tgz#1136ca279ad2cceef8a0b58657ce8104e1f4c400"
+  integrity sha512-OHhHOX+0z0+e5gvBR8j64ipZLIQrR9GXIRbGTmSAL+/AZziFbBqgBboJF1EA4HqAgZ2WQr+y5uV/tlXLMo5x3Q==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.0"
@@ -5365,7 +5373,7 @@ renovate@19.203.2:
     azure-devops-node-api "9.0.1"
     bunyan "1.8.12"
     cacache "13.0.1"
-    chalk "2.4.2"
+    chalk "4.0.0"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "4.1.1"
