@@ -2129,7 +2129,7 @@ fs-extra@8.1.0:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^9.0.0:
+fs-extra@9.0.0, fs-extra@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.0.0.tgz#b6afc31036e247b2466dc99c29ae797d5d4580a3"
   integrity sha512-pmEYSk3vYsG/bF651KPUXZ+hvjpgWYw/Gc7W9NFUe3ZVLczKKWIij3IKpOrQcdw4TILtibFslZ0UmR8Vvzig4g==
@@ -5352,10 +5352,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.202.3:
-  version "19.202.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.202.3.tgz#d47bc9e3655f3da97523c21d947fe0e939870241"
-  integrity sha512-MEwRn8j0LK/Nk5Tj6AJdDemdDfIlGUus6AlpvU52qNUY6vYnbz1v3VjriFKkTCqEUf5utDZXnSr/ibUQus8sVg==
+renovate@19.203.2:
+  version "19.203.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.203.2.tgz#b3b1305696850934028237fe196d34422dffda92"
+  integrity sha512-rYZuURsRBmnFBhEoz+zNH8P9nAL/JcmIM4TdJlCngbcrMLvQAOVEZ92hXKG3uL/p1iXKTSXoD5AE//DYbz/DOg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.0"
@@ -5377,7 +5377,7 @@ renovate@19.202.3:
     email-addresses "3.1.0"
     fast-safe-stringify "2.0.7"
     find-up "4.1.0"
-    fs-extra "8.1.0"
+    fs-extra "9.0.0"
     get-installed-path "4.0.8"
     github-url-from-git "1.5.0"
     global-agent "2.1.8"
