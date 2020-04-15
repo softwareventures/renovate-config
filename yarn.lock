@@ -1159,10 +1159,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
-  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+commander@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
+  integrity sha512-JrDGPAKjMGSP1G0DUoaceEJ3DZgAfr/q6X7FVk4+U5KxUSKviYGM2k6zWkfyyBHy5rAtzgYJFa1ro2O9PtoxwQ==
 
 commander@~2.20.3:
   version "2.20.3"
@@ -5377,10 +5377,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.208.2:
-  version "19.208.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.208.2.tgz#965b053cf3abd3e4dc0f31400d77c9e046065e1f"
-  integrity sha512-MrCg3/FHFrC7diksyTUv28KVzRqdcz9uNI+KNvrk5eYcjA0D/LzHfJOe67wnVqQjAejCFz6LyOziQGEcq3m98g==
+renovate@19.208.3:
+  version "19.208.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.208.3.tgz#6959f34494ea89d68615487dcc63048961abb588"
+  integrity sha512-OkAFH3xmfSCdY/bmESrbXiugxdobcdwE958I2PaF2fQx3RbLAzCfIhTd1k3F6lulPPU+iC2kQs1Qoe9FDlFmIA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.0"
@@ -5393,7 +5393,7 @@ renovate@19.208.2:
     chalk "4.0.0"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "4.1.1"
+    commander "5.0.0"
     conventional-commits-detector "1.0.2"
     convert-hrtime "3.0.0"
     deepmerge "4.2.2"
