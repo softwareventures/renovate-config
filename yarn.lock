@@ -5087,13 +5087,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.10.5:
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.10.5.tgz#b3730438121c6bf59d459aff3471177eef513445"
-  integrity sha512-ssO3AD8/YJzuQUgEasS8PxA8n1yg8JB2VNSJhCebuuHLwaGiufhtFGUypS2bONrCPDbjwlMy7OZD9LkcrQMr1g==
-  dependencies:
-    nan "^2.14.0"
-
 re2@1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/re2/-/re2-1.11.0.tgz#b139158a94fba05d40556b33edb0162f20743f51"
@@ -5376,10 +5369,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.221.0:
-  version "19.221.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.221.0.tgz#bcc9fe94bf56617c2aefb8c76b518ea6e0c3f6b6"
-  integrity sha512-Qyd94/7dSKpTLMxZgBVPLvz92VbZYWNksinNayA8p4Nb1DNGP7Nt0rz1K3dGzWo2N83ZZ7vNdXKlmg6oDIf2+g==
+renovate@19.221.2:
+  version "19.221.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.221.2.tgz#e0f7db2c6984aef16f1053f181b4e2397cfd2b42"
+  integrity sha512-cZWDQSpvBcBXz5/aiUFEVaQzxrlU3qSZyQaQ2FPcrFz2tZ7/e/glG4M3EDVHsXdbMv7nn6QNvr3fgWZFRk+Zcw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
@@ -5444,7 +5437,7 @@ renovate@19.221.0:
     xmldoc "1.1.2"
     yarn "1.22.4"
   optionalDependencies:
-    re2 "1.10.5"
+    re2 "1.11.0"
 
 repeat-element@^1.1.2:
   version "1.1.3"
