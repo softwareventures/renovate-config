@@ -55,6 +55,7 @@
             "^i32$",
             "^u32$",
             "^semantic-release-s3-upload$",
+            "^snyk$",
             "^tslib$",
             "^typescript$",
             "^is-integer-in-range$"
