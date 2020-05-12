@@ -73,11 +73,46 @@
         "yarnDedupeHighest"
       ]
     },
+    "pinOnlyDevDependencies": {
+      "description": "Pin dependency versions for <code>devDependencies</code> and widen others",
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "*"
+          ],
+          "rangeStrategy": "widen"
+        },
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "rangeStrategy": "pin"
+        }
+      ]
+    },
+    "pinAllExceptPeerDependencies": {
+      "description": "Widen <code>peerDependencies</code>, pin everything else",
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "*"
+          ],
+          "rangeStrategy": "pin"
+        },
+        {
+          "depTypeList": [
+            "engines",
+            "peerDependencies"
+          ],
+          "rangeStrategy": "widen"
+        }
+      ]
+    },
     "lib": {
       "extends": [
         "config:js-lib",
         "@softwareventures:common",
-        ":pinOnlyDevDependencies"
+        "@softwareventures:pinOnlyDevDependencies"
       ],
       "packageRules": [
         {
@@ -110,7 +145,7 @@
       "extends": [
         "config:js-app",
         "@softwareventures:common",
-        ":pinAllExceptPeerDependencies"
+        "@softwareventures:pinAllExceptPeerDependencies"
       ],
       "lockFileMaintenance": {
         "semanticCommitType": "fix"
