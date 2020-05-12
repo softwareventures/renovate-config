@@ -28,6 +28,7 @@
       ]
     },
     "common": {
+      "description": "Common rules shared by @softwareventures:lib and @softwareventures:app",
       "extends": [
         ":automergeBranchPush",
         ":semanticCommits",
@@ -109,6 +110,7 @@
       ]
     },
     "lib": {
+      "description": "Standard Renovate rules for Software Ventures libraries (any language)",
       "extends": [
         "config:js-lib",
         "@softwareventures:common",
@@ -142,6 +144,7 @@
       ]
     },
     "app": {
+      "description": "Standard Renovate rules for Software Ventures applications (any language)",
       "extends": [
         "config:js-app",
         "@softwareventures:common",
@@ -152,31 +155,37 @@
       }
     },
     "common-lib": {
+      "description": "Obsolete, use @softwareventures:lib instead",
       "extends": [
         "@softwareventures:lib"
       ]
     },
     "common-app": {
+      "description": "Obsolete, use @softwareventures:app instead",
       "extends": [
         "@softwareventures:app"
       ]
     },
     "js-lib": {
+      "description": "Obsolete, use @softwareventures:lib instead",
       "extends": [
         "@softwareventures:lib"
       ]
     },
     "js-app": {
+      "description": "Obsolete, use @softwareventures:app instead",
       "extends": [
         "@softwareventures:app"
       ]
     },
     "rust-lib": {
+      "description": "Obsolete, use @softwareventures:lib instead",
       "extends": [
         "@softwareventures:lib"
       ]
     },
     "rust-app": {
+      "description": "Obsolete, use @softwareventures:app instead",
       "extends": [
         "@softwareventures:app"
       ]
