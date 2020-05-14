@@ -121,7 +121,6 @@
           "depTypeList": [
             "dependencies"
           ],
-          "rangeStrategy": "update-lockfile",
           "separateMinorPatch": true,
           "semanticCommitType": "chore",
           "automerge": true,
