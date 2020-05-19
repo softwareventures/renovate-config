@@ -48,26 +48,33 @@
           "automerge": true
         },
         {
-          "packagePatterns": [
-            "^@types/",
-            "^@softwareventures/",
-            "^dictionary-types$",
-            "^promise-ponyfill$",
-            "^i32$",
-            "^u32$",
-            "^semantic-release-s3-upload$",
-            "^snyk$",
-            "^tslib$",
-            "^typescript$",
-            "^is-integer-in-range$",
-            "^preact$",
-            "^aws-sdk$"
+          "managers": [
+            "npm"
           ],
-          "updateTypes": [
-            "minor",
-            "patch"
-          ],
-          "automerge": true
+          "packageRules": [
+            {
+              "packagePatterns": [
+                "^@types/",
+                "^@softwareventures/",
+                "^dictionary-types$",
+                "^promise-ponyfill$",
+                "^i32$",
+                "^u32$",
+                "^semantic-release-s3-upload$",
+                "^snyk$",
+                "^tslib$",
+                "^typescript$",
+                "^is-integer-in-range$",
+                "^preact$",
+                "^aws-sdk$"
+              ],
+              "updateTypes": [
+                "minor",
+                "patch"
+              ],
+              "automerge": true
+            }
+          ]
         }
       ],
       "prCreation": "not-pending",
