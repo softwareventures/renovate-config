@@ -75,6 +75,16 @@
               "automerge": true
             }
           ]
+        },
+        {
+          "managers": [
+            "gradle-wrapper"
+          ],
+          "updateTypes": [
+            "minor",
+            "patch"
+          ],
+          "automerge": true
         }
       ],
       "prCreation": "not-pending",
