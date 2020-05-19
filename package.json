@@ -59,7 +59,8 @@
             "^snyk$",
             "^tslib$",
             "^typescript$",
-            "^is-integer-in-range$"
+            "^is-integer-in-range$",
+            "^preact$"
           ],
           "updateTypes": [
             "minor",
