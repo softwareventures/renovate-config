@@ -60,7 +60,8 @@
             "^tslib$",
             "^typescript$",
             "^is-integer-in-range$",
-            "^preact$"
+            "^preact$",
+            "^aws-sdk$"
           ],
           "updateTypes": [
             "minor",
