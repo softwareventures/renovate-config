@@ -5121,6 +5121,13 @@ re2@1.11.0:
   dependencies:
     nan "^2.14.1"
 
+re2@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.12.1.tgz#9187a4cc30d09cea34be29e9ac2a2597295b801b"
+  integrity sha512-HtI4CSZevx7Pi4i6g5lxmQqV58x78zROZxtwmObrpjbJgxp8pq2IiF5wVOR8j8NAmp/J1D9lVh9zSFWg8x5+bw==
+  dependencies:
+    nan "^2.14.1"
+
 read-chunk@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/read-chunk/-/read-chunk-2.1.0.tgz#6a04c0928005ed9d42e1a6ac5600e19cbc7ff655"
