@@ -5411,10 +5411,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@21.21.2:
-  version "21.21.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.21.2.tgz#f38ad67b3bf2f628f3b41d591cadd825297be362"
-  integrity sha512-zJPgMrG+P+xdESImMndpADDLjye521KdzAEk9fnYoB41wP66F1ccm8btNfE6+WxwsZwfwuifDXvPJdMLovrfpw==
+renovate@21.21.3:
+  version "21.21.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.21.3.tgz#e93411c857718b91c7e91b82d419da5cd867cfad"
+  integrity sha512-IWfhIgIMnP8M43FZtTmxLzR55usz5ydb7Sk9AHb1UJVS1jwMppdIK2UgZ0EPcFn+pqk6iogaDfSjWePObW/guA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
@@ -5471,7 +5471,7 @@ renovate@21.21.2:
     shlex "2.0.2"
     shortid "2.2.15"
     simple-git "1.132.0"
-    slugify "1.4.2"
+    slugify "1.4.4"
     toml "3.0.0"
     traverse "0.6.6"
     upath "1.2.0"
@@ -5884,10 +5884,10 @@ slide@^1.1.6, slide@~1.1.3, slide@~1.1.6:
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
 
-slugify@1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.2.tgz#2c9b2b3321c43110a0058982eea7102b998d5068"
-  integrity sha512-7UfMG5rtkxfOI5jg/+f4DMQS3ikUqfWnfMvitrhwdTV4pibWXq9mN4RNLHSV3M1lR++x7z+AG7znsiozdBP+aA==
+slugify@1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.4.tgz#2f032ffa52b1e1ca2a27737c1ce47baae3d0883a"
+  integrity sha512-N2+9NJ8JzfRMh6PQLrBeDEnVDQZSytE/W4BTC4fNNPmO90Uu58uNwSlIJSs+lmPgWsaAF79WLhVPe5tuy7spjw==
 
 smart-buffer@^4.1.0:
   version "4.1.0"
