@@ -204,6 +204,11 @@
   dependencies:
     xregexp "4.2.0"
 
+"@renovatebot/ruby-semver@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-0.1.5.tgz#5c4af1af78901832e84c1341a2986c7756ea61f2"
+  integrity sha512-BXGW4QABOiHY96gSgFD1qB1lP7NUVQ2QVCsoxX12SA67jPFWBx+TBOtc4gtWMME8JZAP1FxrofmA1RZScODhuA==
+
 "@semantic-release/commit-analyzer@^8.0.0":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-8.0.1.tgz#5d2a37cd5a3312da0e3ac05b1ca348bf60b90bca"
@@ -288,15 +293,6 @@
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
-
-"@snyk/ruby-semver@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@snyk/ruby-semver/-/ruby-semver-2.2.2.tgz#69efa5fc3a884ccc7f6a053c37a25b616ef7ce8b"
-  integrity sha512-zhWqr31fwU+kwh12X6LTWNMWp7QqpO6Z4qTqh/ItmCj/ImN1wO0Rv6AE1RafEbiAmTxG6kguCW3a9jzwLSWuBQ==
-  dependencies:
-    lodash.escaperegexp "^4.1.0"
-    lodash.flatten "^4.4.0"
-    lodash.uniq "^4.5.0"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -3520,15 +3516,10 @@ lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
-lodash.escaperegexp@^4.1.0, lodash.escaperegexp@^4.1.2:
+lodash.escaperegexp@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.escaperegexp/-/lodash.escaperegexp-4.1.2.tgz#64762c48618082518ac3df4ccf5d5886dae20347"
   integrity sha1-ZHYsSGGAglGKw99Mz11YhtriA0c=
-
-lodash.flatten@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
-  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
 
 lodash.ismatch@^4.4.0:
   version "4.4.0"
@@ -3580,7 +3571,7 @@ lodash.union@~4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
   integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
-lodash.uniq@^4.5.0, lodash.uniq@~4.5.0:
+lodash.uniq@~4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
@@ -5411,14 +5402,14 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@21.22.5:
-  version "21.22.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.22.5.tgz#95f889e565f7c00a6b34eba838c9b4657b78f6d1"
-  integrity sha512-2KsdQ7HXMEj+IGdirkr1MNOpe9ee2IRfJFrEXmb9Z8B7Lvu31xqEt1fzeb5JbkXUyEqMo+1EENAV5bBl2OOqeg==
+renovate@21.23.0:
+  version "21.23.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.23.0.tgz#b8562c128f14f7ef38cece4a526a9ac7361a5042"
+  integrity sha512-G6ZQfKNuJNIehFoSMF8/96FbLDwYIQwpWYvIuWUwUud2Rg4y+e0uzDrV2x86gLV57U3YrRk4bl2zubwWME2Meg==
   dependencies:
     "@renovate/pep440" "0.4.1"
+    "@renovatebot/ruby-semver" "0.1.5"
     "@sindresorhus/is" "2.1.1"
-    "@snyk/ruby-semver" "2.2.2"
     "@yarnpkg/lockfile" "1.1.0"
     aws-sdk "2.709.0"
     azure-devops-node-api "10.1.1"
