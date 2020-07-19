@@ -4649,12 +4649,12 @@ osenv@^0.1.4, osenv@^0.1.5:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-p-all@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-all/-/p-all-2.1.0.tgz#91419be56b7dee8fe4c5db875d55e0da084244a0"
-  integrity sha512-HbZxz5FONzz/z2gJfk6bFca0BCiSRF8jU3yCsWOen/vR6lZjfPOu/e7L3uFzTW1i0H8TlC3vqQstEJPQL4/uLA==
+p-all@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/p-all/-/p-all-3.0.0.tgz#077c023c37e75e760193badab2bad3ccd5782bfb"
+  integrity sha512-qUZbvbBFVXm6uJ7U/WDiO0fv6waBMbjlCm4E66oZdRR+egswICarIdHyVSZZHudH8T5SF8x/JG0q0duFzPnlBw==
   dependencies:
-    p-map "^2.0.0"
+    p-map "^4.0.0"
 
 p-cancelable@^1.0.0:
   version "1.1.0"
@@ -5127,14 +5127,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.15.2:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.2.tgz#dc046b8dcaf8e26583b4f5e9c57e176a444899a2"
-  integrity sha512-XVOmdex9j1dokTwJRCJoB6/Bzd78HS/JypwNYbPE6OcWAzxJazL+Oqu7wphpt70JdCOjiPxk7ISWWKmOavBlbA==
-  dependencies:
-    nan "^2.14.1"
-    node-gyp "^7.0.0"
-
 re2@1.15.4:
   version "1.15.4"
   resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.4.tgz#2ffc3e4894fb60430393459978197648be01a0a9"
@@ -5437,10 +5429,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@21.33.1:
-  version "21.33.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.33.1.tgz#f08952c0f3954d987f63092ac59eb102b4978059"
-  integrity sha512-SDobxtsOlE6k8kqsHXaW4++iAokA1wHcjNtxZm8VmedPr8iQAcKl0ieoi0oRDhDB7bnh6f/ArwUNJdkv4VR4yA==
+renovate@21.33.2:
+  version "21.33.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.33.2.tgz#dc5cd52f286ae541af665a54fdeecb1bdf847d8f"
+  integrity sha512-fPWISm+j3oCT8EJIQI/BS69RQalQglKc7SP6HO0h+hw5HenrspoY8YG66/TVjoczvfszo2kIqjsok55df09Iig==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
@@ -5486,7 +5478,7 @@ renovate@21.33.1:
     node-emoji "1.10.0"
     node-html-parser "1.2.20"
     object-hash "2.0.3"
-    p-all "2.1.0"
+    p-all "3.0.0"
     p-map "4.0.0"
     parse-diff "0.7.0"
     parse-link-header "1.0.1"
@@ -5505,7 +5497,7 @@ renovate@21.33.1:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
-    re2 "1.15.2"
+    re2 "1.15.4"
 
 repeat-element@^1.1.2:
   version "1.1.3"
