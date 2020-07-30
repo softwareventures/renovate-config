@@ -298,12 +298,7 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@sindresorhus/is@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.0.0.tgz#78fabc5e295adb6e1ef57eaafe4cc5d7aa35b183"
-  integrity sha512-kqA5I6Yun7PBHk8WN9BBP1c7FfN2SrD05GuVSEYPqDb4nerv7HqYfgBfMIKmT/EuejURkJKLZuLyGKGs6WEG9w==
-
-"@sindresorhus/is@^3.0.0":
+"@sindresorhus/is@3.1.0", "@sindresorhus/is@^3.0.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.0.tgz#d8735532635bea69ad39119df5f0f10099bd09dc"
   integrity sha512-n4J+zu52VdY43kdi/XdI9DzuMr1Mur8zFL5ZRG2opCans9aiFwkPxHYFEb5Xgy7n1Z4K6WfI4FpqUqsh3E8BPQ==
@@ -5445,14 +5440,14 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@22.6.3:
-  version "22.6.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-22.6.3.tgz#b0a5f0fd0054092a5c8392019edc0579d59b2228"
-  integrity sha512-gN7GazLwgEqymkCnHL2FGldy1r+FT75T0tu0VCDGSerIMnk3b9frMwQ+zKuN6eNConzI6EVqp/QQLBgDH7i2Og==
+renovate@22.7.0:
+  version "22.7.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-22.7.0.tgz#7534b2ee5a9a5b7580a635006ca085c6a43ed4a1"
+  integrity sha512-l879+tKdcgdLQb+Zutmf4GskCpz2q+78OzxyP9Znb4LcuhH0CFGLEw5msJZ1rgNMDoZLFFzRP2oTn8ZVzIxFFg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
-    "@sindresorhus/is" "3.0.0"
+    "@sindresorhus/is" "3.1.0"
     "@yarnpkg/lockfile" "1.1.0"
     aws-sdk "2.713.0"
     azure-devops-node-api "10.1.1"
