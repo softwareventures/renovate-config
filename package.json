@@ -16,7 +16,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.2.1",
+    "cz-conventional-changelog": "3.3.0",
     "re2": "1.15.4",
     "renovate": "23.3.1",
     "semantic-release": "17.1.1"
