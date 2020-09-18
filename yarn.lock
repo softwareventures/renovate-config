@@ -5900,10 +5900,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.30.3:
-  version "23.30.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.30.3.tgz#d9054e91f871f3f3bd6e8f78ab81d30e8c9fe08b"
-  integrity sha512-KB58LQqFrzGifOqlLqk8SOqzp0UH5uWHxEq5GsDT4+2KP1q8sexfxImPuIH01DIhO2/y/ghlMbLMcyj9SrsgoQ==
+renovate@23.31.1:
+  version "23.31.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.31.1.tgz#1f6ece3da593e26571d801d6793052a28e90e7ad"
+  integrity sha512-dzoch6bN8SbiCWS64ePSM6H66VyUWtcjibgg9Wvz77k4BDh63AJLAhwedcSze1nKb/wjzGUiZnhowgdqF2/9Gg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
@@ -5964,6 +5964,7 @@ renovate@23.30.3:
     toml "3.0.0"
     traverse "0.6.6"
     upath "1.2.0"
+    url-join "4.0.1"
     validate-npm-package-name "3.0.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
@@ -7339,7 +7340,7 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-join@^4.0.0:
+url-join@4.0.1, url-join@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
   integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
