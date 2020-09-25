@@ -4483,10 +4483,10 @@ moment-timezone@0.5.31:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.28.0, "moment@>= 2.9.0", moment@^2.19.3:
-  version "2.28.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.28.0.tgz#cdfe73ce01327cee6537b0fafac2e0f21a237d75"
-  integrity sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
+moment@2.29.0, "moment@>= 2.9.0", moment@^2.19.3:
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
+  integrity sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -5900,10 +5900,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.36.3:
-  version "23.36.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.36.3.tgz#7a655f4a4cfb22fa3aceaa362830912e6c753cf4"
-  integrity sha512-OrrRlY5sCXB/W4kE/AHFYco2feRLdh3uGLWSfDcKHj4l9nHEi2pRLd+oFMnWzywQcbVk6iI2hIuBwdrZD6xQZw==
+renovate@23.36.4:
+  version "23.36.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.36.4.tgz#c474367a329f5c48d5f943c208c1c2b7545d46f7"
+  integrity sha512-Dfc01YyEW/eXuPBgf50W+DaoNdB0iNTCbdEOD6Q52A1eaTMvJ7Y+F47nYzQ85ZrDHNc1mvqkAjoWXH145OKvhg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
@@ -5946,7 +5946,7 @@ renovate@23.36.3:
     markdown-it "11.0.1"
     markdown-table "2.0.0"
     minimatch "3.0.4"
-    moment "2.28.0"
+    moment "2.29.0"
     moment-timezone "0.5.31"
     node-emoji "1.10.0"
     p-all "3.0.0"
