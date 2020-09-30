@@ -18,7 +18,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.15.4",
-    "renovate": "23.37.1",
+    "renovate": "23.37.2",
     "semantic-release": "17.1.2"
   },
   "renovate-config": {
