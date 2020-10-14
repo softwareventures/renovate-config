@@ -3099,7 +3099,7 @@ inquirer@6.5.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-install-artifact-from-github@^1.0.2, install-artifact-from-github@^1.1.1:
+install-artifact-from-github@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.1.1.tgz#587cd8b1a8ed97f4d4230cd7f76bec7a0c4ff292"
   integrity sha512-ZA4d8ABVKdGoWjYK+EyHrOfMRpOLyrBX/9dVts2ULDBRuFWObQ/I3o4f80Ca8klbYQAa5oIRG7XbU22r74A+Ew==
@@ -5614,15 +5614,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.15.5:
-  version "1.15.5"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.5.tgz#070b728933433ab605134b827a58919038cc8048"
-  integrity sha512-DwlSUKqhBbECQYbJOudEC20d4Y4KnE7H6gFh1n7zRe10nFP7X2UKZ0ko2rz2islKyjl5KrPyCrxh9hJfiVx0VQ==
-  dependencies:
-    install-artifact-from-github "^1.0.2"
-    nan "^2.14.1"
-    node-gyp "^7.1.0"
-
 re2@1.15.6:
   version "1.15.6"
   resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.6.tgz#838f86ea4205ffec47c7f5802b12a8fee33472b3"
@@ -5923,10 +5914,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.47.7:
-  version "23.47.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.47.7.tgz#c59fbafdc73359c19cd2aa1d111133bed15ca73d"
-  integrity sha512-Hd7xMn/Ve+QCC2CaJ8z6b7jlZOKbmSLz5VHefdA6Nl5d7oRc4BmY1vKSxOIm8k4mwb495SFO2yM8sJyrFOskeg==
+renovate@23.47.8:
+  version "23.47.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.47.8.tgz#18251c7d8fa144616cf048c1451b4d8a311d8821"
+  integrity sha512-5Ly3fO0FoemLZAVH764Z0bs0cB1QG7B9Vk1tWjYKLZAAsmosVJb/H6/IdtaknWMpWtHvAMKM7cGPzrwl5IrUTA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
@@ -5992,7 +5983,7 @@ renovate@23.47.7:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
-    re2 "1.15.5"
+    re2 "1.15.6"
 
 repeat-element@^1.1.2:
   version "1.1.3"
