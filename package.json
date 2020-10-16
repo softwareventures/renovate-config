@@ -34,6 +34,9 @@
         ":semanticCommits",
         ":maintainLockFilesWeekly"
       ],
+      "github-actions": {
+        "enabled": true
+      },
       "pin": {
         "automerge": true
       },
