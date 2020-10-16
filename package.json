@@ -43,6 +43,17 @@
       "lockFileMaintenance": {
         "automerge": true
       },
+      "regexManagers": [
+        {
+          "fileMatch": [
+            "^\\.github/workflows/[^/]+\\.ya?ml$"
+          ],
+          "matchStrings": [
+            "uses: (?<depName>[a-z-/]+?)@(?<currentValue>.+?)\\s"
+          ],
+          "datasourceTemplate": "github-tags"
+        }
+      ],
       "packageRules": [
         {
           "depTypeList": [
