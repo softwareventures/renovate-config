@@ -4477,14 +4477,7 @@ modify-values@^1.0.0:
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-moment-timezone@0.5.31:
-  version "0.5.31"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.31.tgz#9c40d8c5026f0c7ab46eda3d63e49c155148de05"
-  integrity sha512-+GgHNg8xRhMXfEbv81iDtrVeTcWt0kWmTEY1XQK14dICTXnWJnT0dxdlPspwqF3keKMVPXwayEsk1DI0AA/jdA==
-  dependencies:
-    moment ">= 2.9.0"
-
-moment@2.29.1, "moment@>= 2.9.0", moment@^2.19.3:
+moment@^2.19.3:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
@@ -5908,10 +5901,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.59.1:
-  version "23.59.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.59.1.tgz#53cc5213edac9e10236b7262e3170eb706eb812d"
-  integrity sha512-zy+xDqV2WPNwMdRuDifZapC8U6nBwpRfOtCCdLCh5Xsdy+DLFP+GlPOe6tQ+S0+V+Nc7W0Cx0bFgFjiTes1fxQ==
+renovate@23.60.0:
+  version "23.60.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.60.0.tgz#4a7bb82949803b7b35025979573590158975f81e"
+  integrity sha512-ixPeBGgu6acbZ0n7uG691p/XZI4qB3v6LIPyf3AAAO63p1E/lAejzREEiwL3SWqdEBhRqigRdYEsT3QGu79LBw==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -5955,8 +5948,6 @@ renovate@23.59.1:
     markdown-it "12.0.2"
     markdown-table "2.0.0"
     minimatch "3.0.4"
-    moment "2.29.1"
-    moment-timezone "0.5.31"
     node-emoji "1.10.0"
     p-all "3.0.0"
     p-map "4.0.0"
