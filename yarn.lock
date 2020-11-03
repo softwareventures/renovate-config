@@ -5923,10 +5923,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.67.3:
-  version "23.67.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.67.3.tgz#91e4e234a1fce663eb49b55d4b510774b1ba2c5a"
-  integrity sha512-RJNkvi7LR6meBAUB01gldRx6P1pgTQUjAxAMZN2piJ+tlMOk92jHF3/4B7W72m9t9EWtOoZ0OP5nQc5wJsctjQ==
+renovate@23.68.0:
+  version "23.68.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.68.0.tgz#47783623977f3ab07df1f1088f4772286490a5c8"
+  integrity sha512-Pv1WSJEuJjfZ8u2qNohH9wrbyzTymVVX0P3Bxirrmr6Z0kuGC5lnX8oVQc0famit+6zSuWcUHjfiQS4NLl6s9w==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
