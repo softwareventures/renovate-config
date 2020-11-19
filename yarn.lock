@@ -5910,10 +5910,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@23.84.4:
-  version "23.84.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.4.tgz#18110c4c8cff1a196bc93722e6e760471388ed7f"
-  integrity sha512-4AIQ/r9FnaEVpyWoQWGHEK3jH8KKT5eGeqQXjFroCJXkpGgiaynErkhaI1qJ4hmqNa2DXfC8PjUBYj0T4PnQ9A==
+renovate@23.84.5:
+  version "23.84.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.5.tgz#c2f632cfbdcb0b33e5e998fbf0e482dde1f8adff"
+  integrity sha512-g1Zfu6sNo6CRwsdhGsaBlIppAjvj1pxJvEEgt29qOY6q6shWyYsaa1gUfgyVE7wTq0vrklvtxuHhfZQfA/v09A==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -5969,7 +5969,7 @@ renovate@23.84.4:
     semver-utils "1.1.4"
     shlex "2.0.2"
     shortid "2.2.16"
-    simple-git "2.21.0"
+    simple-git "2.22.0"
     slugify "1.4.6"
     traverse "0.6.6"
     upath "2.0.1"
@@ -6395,10 +6395,10 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@2.21.0:
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.21.0.tgz#d25d3fdc6a139cd7f80f197541a6f9f6e9d4cbc8"
-  integrity sha512-rohCHmEjD/ESXFLxF4bVeqgdb4Awc65ZyyuCKl3f7BvgMbZOBa/Ye3HN/GFnvruiUOAWWNupxhz3Rz5/3vJLTg==
+simple-git@2.22.0:
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.22.0.tgz#650cdf5dfbc6e7771da19ff890862170a184077e"
+  integrity sha512-/8WMNrQ5slYl05jYOpeh4BIyMQc84PkEvk9YAcBHVJaPoAgoxzLzdRzUzWDZJ9U6Z2pUjLxkGcQC0kU4pbRN5Q==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
