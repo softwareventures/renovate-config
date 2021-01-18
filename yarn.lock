@@ -6017,10 +6017,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.22.0:
-  version "24.22.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.22.0.tgz#71cade007bf56c866d23ac21d97447b8a6e43eda"
-  integrity sha512-zrXS2Gtxg4sfPAGysAEKM4+TRjT6FDmZViJP++Bkz2Rg9OrR0actijIiyvsfhA9pIKs1wKl8H3GNlVOvMRho0g==
+renovate@24.22.2:
+  version "24.22.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.22.2.tgz#c0b85541786a2d31d9f2bc1b8b00485c55a26616"
+  integrity sha512-2Lcw5ECnNftoo2GW6Uluuqs/K1TlRU7WBXd3f8k2jHY0owZj4YMCasY1TGZMgsW4vl9IaLTMwkBJKVegZHm8bA==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
