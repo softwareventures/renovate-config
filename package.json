@@ -71,7 +71,7 @@
           ],
           "packageRules": [
             {
-              "packagePatterns": [
+              "matchPackagePatterns": [
                 "^@types/",
                 "^@softwareventures/",
                 "^dictionary-types$",
