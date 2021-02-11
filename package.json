@@ -91,6 +91,19 @@
                 "patch"
               ],
               "automerge": true
+            },
+            {
+              "matchPackagePatterns": [
+                "^@softwareventures/webpack-config",
+                "(^(@types/)?|-)webpack(-|$)",
+                "-loader$",
+                "^(@types/)?cssnano$",
+                "^(@types/)?html-minifier-terser$",
+                "^(@types/)?mini-css-extract-plugin$",
+                "^(@types/)?less$",
+                "^(@types/)?postcss$"
+              ],
+              "groupName": "webpack"
             }
           ]
         },
