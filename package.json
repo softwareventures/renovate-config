@@ -103,6 +103,12 @@
                 "^(@types/)?less$",
                 "^(@types/)?postcss$"
               ],
+              "matchUpdateTypes": [
+                "major",
+                "minor",
+                "patch",
+                "rollback"
+              ],
               "groupName": "webpack"
             }
           ]
