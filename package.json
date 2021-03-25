@@ -34,6 +34,14 @@
         ":semanticCommits",
         ":maintainLockFilesWeekly"
       ],
+      "baseBranches": [
+        "main",
+        "master",
+        "alpha",
+        "beta",
+        "next",
+        "next-major"
+      ],
       "github-actions": {
         "enabled": true
       },
