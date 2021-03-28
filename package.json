@@ -16,6 +16,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "@softwareventures/semantic-release-config": "1.1.1",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.15.9",
     "renovate": "24.96.2",
@@ -245,5 +246,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "extends": "@softwareventures/semantic-release-config"
   }
 }
