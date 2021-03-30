@@ -82,7 +82,8 @@
                 "^typescript$",
                 "^is-integer-in-range$",
                 "^preact$",
-                "^aws-sdk$"
+                "^aws-sdk$",
+                "^postcss$"
               ],
               "updateTypes": [
                 "minor",
