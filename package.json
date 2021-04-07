@@ -72,6 +72,7 @@
               "matchPackagePatterns": [
                 "^@types/",
                 "^@softwareventures/",
+                "^@dcgw/",
                 "^dictionary-types$",
                 "^promise-ponyfill$",
                 "^i32$",
