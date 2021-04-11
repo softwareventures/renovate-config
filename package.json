@@ -84,7 +84,8 @@
                 "^is-integer-in-range$",
                 "^preact$",
                 "^aws-sdk$",
-                "^postcss$"
+                "^postcss$",
+                "^jsdom$"
               ],
               "updateTypes": [
                 "minor",
