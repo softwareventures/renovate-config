@@ -187,7 +187,15 @@
       ],
       "lockFileMaintenance": {
         "semanticCommitType": "fix"
-      }
+      },
+      "packageRules": [
+        {
+          "depTypeList": [
+            "dependencies"
+          ],
+          "semanticCommitType": "fix"
+        }
+      ]
     },
     "common-lib": {
       "description": "Obsolete, use @softwareventures:lib instead",
