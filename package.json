@@ -85,7 +85,8 @@
                 "^preact$",
                 "^aws-sdk$",
                 "^postcss$",
-                "^jsdom$"
+                "^jsdom$",
+                "^get-stream$"
               ],
               "updateTypes": [
                 "minor",
@@ -185,9 +186,6 @@
         "@softwareventures:common",
         "@softwareventures:pinAllExceptPeerDependencies"
       ],
-      "lockFileMaintenance": {
-        "semanticCommitType": "fix"
-      },
       "packageRules": [
         {
           "depTypeList": [
