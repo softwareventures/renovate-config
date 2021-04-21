@@ -2090,7 +2090,7 @@ dateformat@^3.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2:
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -5516,10 +5516,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.119.6:
-  version "24.119.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.119.6.tgz#add4c082a3595e003b89dbc081af3dadae5cb851"
-  integrity sha512-Rw4TvTNWIOwAhCXCCV0VYZWQPbhoskSKQ4KFOwfsUnaNUquvHwJV5iaOWMPakJTlei3FDiswXbR5p1/Tz45Q/A==
+renovate@24.119.7:
+  version "24.119.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.119.7.tgz#31431565a78f9bf86e4676fb61fd084c5749c73e"
+  integrity sha512-95yAge5jiZDoKSt+c4oGPHNnIjcwp7CHe5wS3IqVK4C2l98rUFF6+0ZA2d+8rZz1FfdX3nqmNqSAvMaGN0vqow==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -5579,7 +5579,7 @@ renovate@24.119.6:
     semver-utils "1.1.4"
     shlex "2.0.2"
     shortid "2.2.16"
-    simple-git "2.37.0"
+    simple-git "2.38.0"
     slugify "1.5.0"
     traverse "0.6.6"
     upath "2.0.1"
@@ -5935,14 +5935,14 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@2.37.0:
-  version "2.37.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.37.0.tgz#9cf30a1fe6f58453a2ca3e65562428b38ff76f84"
-  integrity sha512-ZK6qRnP+Xa2v23UEZDNHUfzswsuNCDHOQpWZRkpqNaXn7V5wVBBx3zRJLji3pROJGzrzA7mXwY7preL5EKuAaQ==
+simple-git@2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.38.0.tgz#5bc66bec40bce4f8ef950f4966f427799b4dd758"
+  integrity sha512-CORjrfirWMEGbJAxaXDH/PjZVOeATeG2bkafM9DsLVcFkbF9sXQGIIpEI6FeyXpvUsFK69T/pa4+4FKY9TUJMQ==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
-    debug "^4.3.2"
+    debug "^4.3.1"
 
 slash@^3.0.0:
   version "3.0.0"
