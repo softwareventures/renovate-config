@@ -156,7 +156,6 @@
           "matchDepTypes": [
             "dependencies"
           ],
-          "separateMinorPatch": true,
           "semanticCommitType": "chore",
           "automerge": true,
           "major": {
