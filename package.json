@@ -31,7 +31,7 @@
     "common": {
       "description": "Common rules shared by @softwareventures:lib and @softwareventures:app",
       "extends": [
-        ":automergeBranchPush",
+        ":automergeBranch",
         ":semanticCommits",
         ":maintainLockFilesWeekly"
       ],
@@ -54,58 +54,54 @@
       },
       "packageRules": [
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "devDependencies"
           ],
-          "updateTypes": [
+          "automerge": true,
+          "matchUpdateTypes": [
             "minor",
             "patch"
-          ],
-          "automerge": true
-        },
-        {
-          "managers": [
-            "npm"
-          ],
-          "packageRules": [
-            {
-              "matchPackagePatterns": [
-                "^@types/",
-                "^@softwareventures/",
-                "^@dcgw/",
-                "^dictionary-types$",
-                "^promise-ponyfill$",
-                "^i32$",
-                "^u32$",
-                "^semantic-release-s3-upload$",
-                "^snyk$",
-                "^tslib$",
-                "^typescript$",
-                "^is-integer-in-range$",
-                "^preact$",
-                "^aws-sdk$",
-                "^postcss$",
-                "^jsdom$",
-                "^get-stream$",
-                "^webpack$"
-              ],
-              "updateTypes": [
-                "minor",
-                "patch"
-              ],
-              "automerge": true
-            }
           ]
         },
         {
-          "managers": [
+          "automerge": true,
+          "matchManagers": [
             "gradle-wrapper"
           ],
-          "updateTypes": [
+          "matchUpdateTypes": [
             "minor",
             "patch"
+          ]
+        },
+        {
+          "matchManagers": [
+            "npm"
           ],
-          "automerge": true
+          "matchPackagePatterns": [
+            "^@types/",
+            "^@softwareventures/",
+            "^@dcgw/",
+            "^dictionary-types$",
+            "^promise-ponyfill$",
+            "^i32$",
+            "^u32$",
+            "^semantic-release-s3-upload$",
+            "^snyk$",
+            "^tslib$",
+            "^typescript$",
+            "^is-integer-in-range$",
+            "^preact$",
+            "^aws-sdk$",
+            "^postcss$",
+            "^jsdom$",
+            "^get-stream$",
+            "^webpack$"
+          ],
+          "automerge": true,
+          "matchUpdateTypes": [
+            "minor",
+            "patch"
+          ]
         }
       ],
       "prCreation": "not-pending",
@@ -118,13 +114,13 @@
       "description": "Pin dependency versions for <code>devDependencies</code> and widen others",
       "packageRules": [
         {
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "*"
           ],
           "rangeStrategy": "widen"
         },
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "devDependencies"
           ],
           "rangeStrategy": "pin"
@@ -135,13 +131,13 @@
       "description": "Widen <code>peerDependencies</code>, pin everything else",
       "packageRules": [
         {
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "*"
           ],
           "rangeStrategy": "pin"
         },
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "engines",
             "peerDependencies"
           ],
@@ -157,7 +153,7 @@
       ],
       "packageRules": [
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "dependencies"
           ],
           "separateMinorPatch": true,
@@ -169,15 +165,15 @@
           }
         },
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "dependencies"
           ],
           "matchCurrentVersion": "<1",
-          "updateTypes": [
-            "minor"
-          ],
           "semanticCommitType": "fix",
-          "automerge": false
+          "automerge": false,
+          "matchUpdateTypes": [
+            "minor"
+          ]
         }
       ]
     },
@@ -189,7 +185,7 @@
       ],
       "packageRules": [
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "dependencies"
           ],
           "semanticCommitType": "fix"
