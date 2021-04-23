@@ -86,7 +86,8 @@
                 "^aws-sdk$",
                 "^postcss$",
                 "^jsdom$",
-                "^get-stream$"
+                "^get-stream$",
+                "^webpack$"
               ],
               "updateTypes": [
                 "minor",
