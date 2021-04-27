@@ -4057,10 +4057,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
-markdown-it@12.0.4:
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.4.tgz#eec8247d296327eac3ba9746bdeec9cfcc751e33"
-  integrity sha512-34RwOXZT8kyuOJy25oJNJoulO8L0bTHYWXcdZBYZqFnjIy3NgjeoM3FmPXIOFQ26/lSHYMr8oc62B6adxXcb3Q==
+markdown-it@12.0.6:
+  version "12.0.6"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.6.tgz#adcc8e5fe020af292ccbdf161fe84f1961516138"
+  integrity sha512-qv3sVLl4lMT96LLtR7xeRJX11OUFjsaD5oVat2/SNBIb21bJXwal2+SklcRbTwGwqWpWH/HRtYavOoJE+seL8w==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -5457,10 +5457,10 @@ redis-parser@^3.0.0:
   dependencies:
     redis-errors "^1.0.0"
 
-redis@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.0.tgz#39daec130d74b78decca93513c61db0af5d86ce6"
-  integrity sha512-//lAOcEtNIKk2ekZibes5oyWKYUVWMvMB71lyD/hS9KRePNkB7AU3nXGkArX6uDKEb2N23EyJBthAv6pagD0uw==
+redis@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.1.tgz#a44bee7c072dcf685e139048d6a1a4d3b00f5d01"
+  integrity sha512-QhkKhOuzhogR1NDJfBD34TQJz2ZJwDhhIC6ZmvpftlmfYShHHQXjjNspAJ+Z2HH5NwSBVYBVganbiZ8bgFMHjg==
   dependencies:
     denque "^1.5.0"
     redis-commands "^1.7.0"
@@ -5548,10 +5548,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.119.13:
-  version "24.119.13"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.119.13.tgz#61f7ff404cef73f66f801a005b563a88831ff2c1"
-  integrity sha512-+xOmr9zTREwR1ffM6AlPL/kuQPWJ31fOPjkFXow5HlYD5Vo4aAO+Ok2A3KI1GQ2gGZYqbHdO0J14M5oHcvB6RQ==
+renovate@25.4.4:
+  version "25.4.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.4.4.tgz#45d8c87936d62b9e31b05f430b69243f49932e3f"
+  integrity sha512-UTK3vZhQLGo0ecsUtdGFCbjegrcuJ/vwtlz10qZQP1EvZsBNO/X4JJ+Eak59wTN3ZgZMcgfHCxhxwkK9HWYX0w==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -5593,7 +5593,7 @@ renovate@24.119.13:
     json5 "2.2.0"
     linkify-markdown "1.0.0"
     luxon "1.26.0"
-    markdown-it "12.0.4"
+    markdown-it "12.0.6"
     markdown-table "2.0.0"
     minimatch "3.0.4"
     moo "0.5.1"
@@ -5604,7 +5604,7 @@ renovate@24.119.13:
     p-queue "6.6.2"
     parse-diff "0.8.1"
     parse-link-header "1.0.1"
-    redis "3.1.0"
+    redis "3.1.1"
     registry-auth-token "4.2.1"
     semver "7.3.5"
     semver-stable "3.0.0"
