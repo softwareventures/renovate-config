@@ -103,6 +103,19 @@
             "minor",
             "patch"
           ]
+        },
+        {
+          "matchManagers": [
+            "gradle"
+          ],
+          "matchPackagePatterns": [
+            "^com.android.tools.build:"
+          ],
+          "matchUpdateTypes": [
+            "minor",
+            "patch"
+          ],
+          "automerge": true
         }
       ],
       "prCreation": "not-pending",
