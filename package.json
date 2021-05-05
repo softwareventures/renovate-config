@@ -95,7 +95,8 @@
             "^postcss$",
             "^jsdom$",
             "^get-stream$",
-            "^webpack$"
+            "^webpack$",
+            "^dotenv$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
