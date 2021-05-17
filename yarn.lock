@@ -4880,15 +4880,6 @@ rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.15.9:
-  version "1.15.9"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.9.tgz#9ed16171edcb0bc4f0e239bf55229ff3f26acbe3"
-  integrity sha512-AXWEhpMTBdC+3oqbjdU07dk0pBCvxh5vbOMLERL6Y8FYBSGn4vXlLe8cYszn64Yy7H8keVMrgPzoSvOd4mePpg==
-  dependencies:
-    install-artifact-from-github "^1.2.0"
-    nan "^2.14.2"
-    node-gyp "^7.1.2"
-
 re2@1.16.0:
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/re2/-/re2-1.16.0.tgz#f311eb4865b1296123800ea8e013cec8dab25590"
@@ -5134,10 +5125,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@25.21.11:
-  version "25.21.11"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.21.11.tgz#1b94840e20a39b0b5ac40a4324accf1c15295364"
-  integrity sha512-vzaHufCFWR7faalF+zUSFIGFgSfE77WrfQ4Tjetif0dMIiIIODaUdfBJ/U6PQDtLS581X/GWLCwBZAoKG5wrHg==
+renovate@25.21.12:
+  version "25.21.12"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.21.12.tgz#e36a28e237c2c58e4ebefdb8d7502dc265c5df5c"
+  integrity sha512-YnG0CSh4WzG10n3udTzmhuT397WMOEQDkq4UX77X7Dc38oMdPdveD7BOdbYpnzeSCQ5o8Ui5YXzCsXZ+XvmT2w==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -5197,7 +5188,7 @@ renovate@25.21.11:
     semver-utils "1.1.4"
     shlex "2.0.2"
     shortid "2.2.16"
-    simple-git "2.38.0"
+    simple-git "2.38.1"
     slugify "1.5.2"
     traverse "0.6.6"
     upath "2.0.1"
@@ -5206,7 +5197,7 @@ renovate@25.21.11:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
-    re2 "1.15.9"
+    re2 "1.16.0"
 
 repeat-string@^1.0.0, repeat-string@^1.5.4:
   version "1.6.1"
@@ -5521,10 +5512,10 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@2.38.0:
-  version "2.38.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.38.0.tgz#5bc66bec40bce4f8ef950f4966f427799b4dd758"
-  integrity sha512-CORjrfirWMEGbJAxaXDH/PjZVOeATeG2bkafM9DsLVcFkbF9sXQGIIpEI6FeyXpvUsFK69T/pa4+4FKY9TUJMQ==
+simple-git@2.38.1:
+  version "2.38.1"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.38.1.tgz#6c3ce211777a65482598f4bd93c66443465228c0"
+  integrity sha512-SeMgUEA6Cmk7Ta57ZzMbkBcAfh8A+DZ6ACZ2onfCp/9UklC9yMJgvcH+GGI3QDTv0lTDIbWtl5LSbBk1UtEfeg==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
