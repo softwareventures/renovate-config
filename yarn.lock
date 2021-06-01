@@ -1449,10 +1449,10 @@ byte-size@^7.0.1:
   resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-7.0.1.tgz#b1daf3386de7ab9d706b941a748dbfc71130dee3"
   integrity sha512-crQdqyCwhokxwV1UyDzLZanhkugAgft7vt0qbbdt60C6Zf3CAiGmtUCylbtYwrU6loOUw3euGrNtW1J651ot1A==
 
-cacache@15.1.0, cacache@^15.0.3, cacache@^15.0.5, cacache@^15.1.0:
-  version "15.1.0"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-15.1.0.tgz#164c2f857ee606e4cc793c63018fefd0ea5eba7b"
-  integrity sha512-mfx0C+mCfWjD1PnwQ9yaOrwG1ou9FkKnx0SvzUHWdFt7r7GaRtzT+9M8HAvLu62zIHtnpQ/1m93nWNDCckJGXQ==
+cacache@15.2.0, cacache@^15.0.3, cacache@^15.0.5, cacache@^15.1.0:
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-15.2.0.tgz#73af75f77c58e72d8c630a7a2858cb18ef523389"
+  integrity sha512-uKoJSHmnrqXgthDFx/IU6ED/5xd+NNGe+Bb+kLZy7Ku4P+BaiWEUflAKPZ7eAzsYGcsAGASJZsybXp+quEcHTw==
   dependencies:
     "@npmcli/move-file" "^1.0.1"
     chownr "^2.0.0"
@@ -4972,10 +4972,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@25.35.0:
-  version "25.35.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.35.0.tgz#d394b31c8650e1e1cc359150e8636b4308468847"
-  integrity sha512-M+/8Pvvkz7VkGofnerHnXvlRmrbAgZE/hj3RIhhhR9We1VOtrfhCQTsohL+AWmCfbawykF0R3f82KwWci+a3TA==
+renovate@25.35.2:
+  version "25.35.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.35.2.tgz#a8851927fcbeecf9d7e20c71bf41344cc58d7305"
+  integrity sha512-LpXEUqlzSbWozE7MgFWh54E8jsgr+2XgsWQjhsEI6EWJKHM8IGRSmxERdWEnSzSEE5XaL+oI3nZGLoJZgNvF4A==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -4987,7 +4987,7 @@ renovate@25.35.0:
     "@yarnpkg/parsers" "2.3.0"
     azure-devops-node-api "10.2.2"
     bunyan "1.8.15"
-    cacache "15.1.0"
+    cacache "15.2.0"
     chalk "4.1.1"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
