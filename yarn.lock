@@ -2186,15 +2186,15 @@ emoji-regex@^8.0.0:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
-emojibase-regex@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-5.1.2.tgz#96cc95e26b186866de1c42a16782d3242cc29c11"
-  integrity sha512-/n1k9npdzvJecnTy7qu324btGxWSi4GC4Uk9R4DLDc8CIuNx+a2RQLrDSL/0kOi0dIg4lP4h65wKICYGjyIDbw==
+emojibase-regex@5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-5.1.3.tgz#f0ef621ed6ec624becd2326f999fd4ea01b94554"
+  integrity sha512-gT8T9LxLA8VJdI+8KQtyykB9qKzd7WuUL3M2yw6y9tplFeufOUANg3UKVaKUvkMcRNvZsSElWhxcJrx8WPE12g==
 
-emojibase@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-5.1.1.tgz#fe812023959cb60d0b1b6da16042b180c96c2b7c"
-  integrity sha512-qc/qfuzZ93xmYMhnVA15yP2k3t4zJvBbqCc8dpDXFf75eJ+IogbzJuWQur8fkwsZ0u7YvJDBh939F9DapQqktQ==
+emojibase@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-5.2.0.tgz#3b53899f9a9f8aae1280db446c83ce28f1d286d5"
+  integrity sha512-5T02oTJaWpScAtYbukKVc8vQ1367MyfVtFHUMoOVZ9/r1kFcbYqjSktD56TICBAeyW9uc1t+7qQuXEtntM6p5A==
 
 encoding@^0.1.12:
   version "0.1.13"
@@ -4987,10 +4987,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@25.35.4:
-  version "25.35.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.35.4.tgz#325504cc1cb54fd8894048e60d0dbf90ed1e260d"
-  integrity sha512-ooNzmP/uKmng+B3iSWyjTY9arkVE7/UDxYHU6zHmRgVKfwKwIBMMKgBYsRMKH/DFaltdtKi96eOViZ0SF00Mjw==
+renovate@25.35.6:
+  version "25.35.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.35.6.tgz#c4cf0a62fb412381af5d6919f3d51f0a3b68b728"
+  integrity sha512-Gtb2oV6/0zCLho/Pcvr2ydWl5lHw6CoiH61S/RFWdzBBBLKGfVUvLJDv3hLkXPyY31/2gG0pj4dwlofJHO2OXg==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -5015,8 +5015,8 @@ renovate@25.35.4:
     detect-indent "6.0.0"
     email-addresses "4.0.0"
     emoji-regex "9.2.2"
-    emojibase "5.1.1"
-    emojibase-regex "5.1.2"
+    emojibase "5.2.0"
+    emojibase-regex "5.1.3"
     fast-safe-stringify "2.0.7"
     find-up "5.0.0"
     fs-extra "10.0.0"
