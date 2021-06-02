@@ -96,7 +96,8 @@
             "^jsdom$",
             "^get-stream$",
             "^webpack$",
-            "^dotenv$"
+            "^dotenv$",
+            "^trim-newlines$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
