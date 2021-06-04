@@ -97,7 +97,8 @@
             "^get-stream$",
             "^webpack$",
             "^dotenv$",
-            "^trim-newlines$"
+            "^trim-newlines$",
+            "^electron$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
