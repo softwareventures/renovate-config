@@ -98,7 +98,8 @@
             "^webpack$",
             "^dotenv$",
             "^trim-newlines$",
-            "^electron$"
+            "^electron$",
+            "^simple-git$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
