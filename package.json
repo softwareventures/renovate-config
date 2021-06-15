@@ -20,7 +20,7 @@
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.16.0",
     "renovate": "25.41.6",
-    "semantic-release": "17.4.3"
+    "semantic-release": "17.4.4"
   },
   "renovate-config": {
     "default": {
