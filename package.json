@@ -19,7 +19,7 @@
     "@softwareventures/semantic-release-config": "1.1.1",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.16.0",
-    "renovate": "25.44.1",
+    "renovate": "25.45.0",
     "semantic-release": "17.4.4"
   },
   "renovate-config": {
