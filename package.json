@@ -99,7 +99,8 @@
             "^dotenv$",
             "^trim-newlines$",
             "^electron$",
-            "^simple-git$"
+            "^simple-git$",
+            "^node-releases$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
