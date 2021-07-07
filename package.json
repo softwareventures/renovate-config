@@ -10,17 +10,25 @@
   "bugs": "https://github.com/softwareventures/renovate-config/issues",
   "repository": "github:softwareventures/renovate-config",
   "license": "ISC",
-  "sideEffects": false,
   "scripts": {
-    "test": "renovate-config-validator",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "renovate-config-validator"
   },
+  "sideEffects": false,
   "devDependencies": {
     "@softwareventures/semantic-release-config": "1.1.1",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.16.0",
     "renovate": "25.52.5",
     "semantic-release": "17.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "extends": "@softwareventures/semantic-release-config"
   },
   "renovate-config": {
     "default": {
@@ -245,13 +253,5 @@
         "@softwareventures:app"
       ]
     }
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "release": {
-    "extends": "@softwareventures/semantic-release-config"
   }
 }
