@@ -121,6 +121,18 @@
         },
         {
           "matchManagers": [
+            "npm"
+          ],
+          "matchPackagePatterns": [
+            "^@types/node$"
+          ],
+          "matchUpdateTypes": [
+            "major"
+          ],
+          "enabled": false
+        },
+        {
+          "matchManagers": [
             "gradle"
           ],
           "matchPackagePatterns": [
