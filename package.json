@@ -23,7 +23,7 @@
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.16.0",
     "renovate": "25.75.1",
-    "semantic-release": "17.4.4"
+    "semantic-release": "17.4.5"
   },
   "config": {
     "commitizen": {
