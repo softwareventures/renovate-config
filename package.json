@@ -111,7 +111,8 @@
             "^trim-newlines$",
             "^electron$",
             "^simple-git$",
-            "^node-releases$"
+            "^node-releases$",
+            "^electron-store$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
