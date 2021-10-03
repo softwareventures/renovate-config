@@ -1475,6 +1475,11 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+auth-header@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
+  integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -5233,10 +5238,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@27.25.0:
-  version "27.25.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.25.0.tgz#76b9fed8d7b9718714a447e61424b1f538740999"
-  integrity sha512-W6F+lgM8IWJxjENLIpbRtrCgoXwdCOIbI8+Nz2CPzDBdwfSNvPQnHOYXQZiSkcaXv8FfYBxhq5yVvl1n+0ynMA==
+renovate@27.25.1:
+  version "27.25.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.25.1.tgz#ccc47d31f45142b4c3995baeb0e8d74051f7f3fe"
+  integrity sha512-js8VvZdeJ2rEZqz04Pz1iEJnG6RdoKan6uhb/0iboE3a7Ttku2JvUFDkK8jOO0X3Ch/XE+p8yL4zIRmTH612Bg==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -5246,6 +5251,7 @@ renovate@27.25.0:
     "@sindresorhus/is" "4.2.0"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.4.0"
+    auth-header "1.0.0"
     azure-devops-node-api "11.0.1"
     bunyan "1.8.15"
     cacache "15.3.0"
@@ -5308,7 +5314,6 @@ renovate@27.25.0:
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "3.0.0"
-    www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
     re2 "1.16.0"
@@ -6374,11 +6379,6 @@ write-file-atomic@*, write-file-atomic@^3.0.3:
     is-typedarray "^1.0.0"
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
-
-www-authenticate@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/www-authenticate/-/www-authenticate-0.6.2.tgz#b7a7d487bdc5a8b423a4d8fd5f9c661adde50ebf"
-  integrity sha1-t6fUh73FqLQjpNj9X5xmGt3lDr8=
 
 xmldoc@1.1.2:
   version "1.1.2"
