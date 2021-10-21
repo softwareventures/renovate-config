@@ -114,7 +114,8 @@
             "^node-releases$",
             "^electron-store$",
             "^acorn$",
-            "^escodegen$"
+            "^escodegen$",
+            "^yarn$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
