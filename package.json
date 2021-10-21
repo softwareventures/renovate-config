@@ -115,7 +115,8 @@
             "^electron-store$",
             "^acorn$",
             "^escodegen$",
-            "^yarn$"
+            "^yarn$",
+            "^xml-formatter$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
