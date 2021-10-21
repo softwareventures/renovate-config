@@ -113,7 +113,8 @@
             "^simple-git$",
             "^node-releases$",
             "^electron-store$",
-            "^acorn$"
+            "^acorn$",
+            "^escodegen$"
           ],
           "automerge": true,
           "matchUpdateTypes": [
