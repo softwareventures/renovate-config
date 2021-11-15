@@ -3959,10 +3959,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.0.2.tgz#11f2cd4a11655fdf92e076b5782d7ede5bcdd133"
-  integrity sha512-ZRioYLCgRHrtTORaZX1mx+jtxKtKuI5ZDvHNAmqpUzGqSrR+tL4FVLn/CUGMA3h0+AKD1MAxGI5GnCqR5txNqg==
+luxon@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.1.0.tgz#3e50a1d2fa92b2e250e2a5d9ee9208a6c0263141"
+  integrity sha512-R0VSFyNh3+3SxM+eLyGSc1IYg+QHD/G1k0RvpXncYccO7SA4luC7QqdXyHospyu3t36pMHeCvd7Jlaab8fsF+w==
 
 make-error@^1, make-error@^1.1.1:
   version "1.3.6"
@@ -5410,10 +5410,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@29.8.0:
-  version "29.8.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.8.0.tgz#8d9e0509f273f28a6b9122ff1f8b23283fd2f8cd"
-  integrity sha512-H3NXIk46V822O0XILR8R2taOYsCg2XyRgQnSxLK2QrW3PpRTer2Cjxetek7tPC5jEgdWaDam8wjCfbhWmJ1PEg==
+renovate@29.8.2:
+  version "29.8.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.8.2.tgz#73cefa10622944f657445190873b1d76303cee83"
+  integrity sha512-T5qEPX2zNa49YQz/TSRuERv/qN0/xyyLgvAQVYrXCniit6jUGmCl2wS66VY4+mKsmjlAGeYnfJIMJAACx0TxQA==
   dependencies:
     "@aws-sdk/client-ecr" "3.38.0"
     "@breejs/later" "4.1.0"
@@ -5460,7 +5460,7 @@ renovate@29.8.0:
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.0"
-    luxon "2.0.2"
+    luxon "2.1.0"
     markdown-it "12.2.0"
     markdown-table "2.0.0"
     marshal "0.5.2"
@@ -5483,7 +5483,7 @@ renovate@29.8.0:
     shlex "2.1.0"
     shortid "2.2.16"
     simple-git "2.47.0"
-    slugify "1.6.1"
+    slugify "1.6.2"
     traverse "0.6.6"
     upath "2.0.1"
     url-join "4.0.1"
@@ -5824,10 +5824,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slugify@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.1.tgz#a5fcaef29f4e57c6e932ce7044b6ffd9cf81b641"
-  integrity sha512-5ofqMTbetNhxlzjYYLBaZFQd6oiTuSkQlyfPEFIMwgUABlZQ0hbk5xIV9Ydd5jghWeRoO7GkiJliUvTpLOjNRA==
+slugify@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.2.tgz#4cb97220a2278e1b86fb017c6da668e6a865354c"
+  integrity sha512-XMtI8qD84LwCpthLMBHlIhcrj10cgA+U/Ot8G6FD6uFuWZtMfKK75JO7l81nzpFJsPlsW6LT+VKqWQJW3+6New==
 
 smart-buffer@^4.1.0:
   version "4.2.0"
