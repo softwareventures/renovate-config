@@ -2324,7 +2324,7 @@ cacheable-lookup@^5.0.3:
   resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz#5a6b865b2c44357be3d5ebc2a467b032719a7005"
   integrity sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA==
 
-cacheable-request@^7.0.1:
+cacheable-request@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.2.tgz#ea0d0b889364a25854757301ca12b2da77f91d27"
   integrity sha512-pouW8/FmiPQbuGpkXQ9BAPv/Mo5xDGANgSNXzTzJ8DrKGuXOssM4wIQRjfanNRh3Yu5cfYPvcorqbhg2KIJtew==
@@ -3623,17 +3623,17 @@ globby@^11.0.0, globby@^11.0.1:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-got@11.8.2, got@^11.7.0:
-  version "11.8.2"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.8.2.tgz#7abb3959ea28c31f3576f1576c1effce23f33599"
-  integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
+got@11.8.3, got@^11.7.0:
+  version "11.8.3"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.3.tgz#f496c8fdda5d729a90b4905d2b07dbd148170770"
+  integrity sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
     "@types/cacheable-request" "^6.0.1"
     "@types/responselike" "^1.0.0"
     cacheable-lookup "^5.0.3"
-    cacheable-request "^7.0.1"
+    cacheable-request "^7.0.2"
     decompress-response "^6.0.0"
     http2-wrapper "^1.0.0-beta.5.2"
     lowercase-keys "^2.0.0"
@@ -5967,10 +5967,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@29.25.0:
-  version "29.25.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.25.0.tgz#c0d9ba5a6ce96254672eda485acb507057188b6b"
-  integrity sha512-eTx4u6zEKdGmyrP9P6NS+Cz4PwJtd7mIYoUD33j/GautnVwZquuN55rj76CFaRk8InFZfgyOGAQg4i9hMUa23A==
+renovate@29.26.0:
+  version "29.26.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.26.0.tgz#4ce0c837b88c77f36b3fbd052b29fbaee51e4851"
+  integrity sha512-6HJTFkYc+Wv0DH4h80I23JinBsVwkDC0FDJufXKP7RCMnyyBPwCtY18bqjm1QVAD39XSbYSyfoewGIMMkxbzRA==
   dependencies:
     "@aws-sdk/client-ec2" "3.35.0"
     "@aws-sdk/client-ecr" "3.38.0"
@@ -6008,7 +6008,7 @@ renovate@29.25.0:
     git-url-parse "11.6.0"
     github-url-from-git "1.5.0"
     global-agent "2.2.0"
-    got "11.8.2"
+    got "11.8.3"
     handlebars "4.7.7"
     handy-redis "2.3.1"
     hasha "5.2.2"
