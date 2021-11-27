@@ -4919,10 +4919,10 @@ nan@^2.14.0, nan@^2.14.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
-nanoid@^2.1.0:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
-  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
+nanoid@3.1.30:
+  version "3.1.30"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
+  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
 
 ncp@~2.0.0:
   version "2.0.0"
@@ -5967,10 +5967,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@29.26.0:
-  version "29.26.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.26.0.tgz#4ce0c837b88c77f36b3fbd052b29fbaee51e4851"
-  integrity sha512-6HJTFkYc+Wv0DH4h80I23JinBsVwkDC0FDJufXKP7RCMnyyBPwCtY18bqjm1QVAD39XSbYSyfoewGIMMkxbzRA==
+renovate@29.27.0:
+  version "29.27.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.27.0.tgz#52470e830809dc0a61187c31886dfe9f49909a8b"
+  integrity sha512-cxVQiYNRkojqHNiwZ5Pik0RhUSuK/Q1cFIla26FBrS9UzdgQkMoxNqiT/0cG4c5N5bcnS2OuQAUBw4nnqrekYA==
   dependencies:
     "@aws-sdk/client-ec2" "3.35.0"
     "@aws-sdk/client-ecr" "3.38.0"
@@ -6024,6 +6024,7 @@ renovate@29.26.0:
     marshal "0.5.2"
     minimatch "3.0.4"
     moo "0.5.1"
+    nanoid "3.1.30"
     node-html-parser "3.3.6"
     openpgp "5.0.1"
     p-all "3.0.0"
@@ -6039,7 +6040,6 @@ renovate@29.26.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    shortid "2.2.16"
     simple-git "2.47.0"
     slugify "1.6.2"
     traverse "0.6.6"
@@ -6333,13 +6333,6 @@ shlex@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/shlex/-/shlex-2.1.0.tgz#4f8fbf75c4a9956283e4095fa5eac3f4969f6a6b"
   integrity sha512-Tk8PjohJbWpGu2NtAlsEi/9AS4GU2zW2ZWLFrWRDskZpSJmyBIU3nTkBtocxD90r3w4BwRevsNtIqIP9HMuYiQ==
-
-shortid@2.2.16:
-  version "2.2.16"
-  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.16.tgz#b742b8f0cb96406fd391c76bfc18a67a57fe5608"
-  integrity sha512-Ugt+GIZqvGXCIItnsL+lvFJOiN7RYqlGy7QE41O3YC1xbNSeDGIRO7xg2JJXIAj1cAGnOeC1r7/T9pgrtQbv4g==
-  dependencies:
-    nanoid "^2.1.0"
 
 side-channel@^1.0.4:
   version "1.0.4"
