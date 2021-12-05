@@ -4924,7 +4924,7 @@ mv@~2:
     ncp "~2.0.0"
     rimraf "~2.4.0"
 
-nan@^2.14.0, nan@^2.14.2:
+nan@^2.14.0, nan@^2.14.2, nan@^2.15.0:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
@@ -4968,7 +4968,7 @@ node-fetch@^2.6.1:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-gyp@*, node-gyp@^8.0.0, node-gyp@^8.2.0:
+node-gyp@*, node-gyp@^8.0.0, node-gyp@^8.2.0, node-gyp@^8.4.1:
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-8.4.1.tgz#3d49308fc31f768180957d6b5746845fbd429937"
   integrity sha512-olTJRgUtAb/hOXG0E93wZDs5YiJlgbXxTwQAFHyNlRsXQnYzUaF2aGgujZbw+hR8aF4ZG/rST57bWMWD16jr9w==
@@ -5821,6 +5821,15 @@ re2@1.16.0:
     install-artifact-from-github "^1.2.0"
     nan "^2.14.2"
     node-gyp "^8.0.0"
+
+re2@1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.17.1.tgz#0202025aa20dd574a8cdb439811761d88b70ae59"
+  integrity sha512-TrhxVzakyO/WJsErkc01zjlEiDLCuuRuddbVi2I8YasIbh6MEJfkRoajBRj+ggm00gnGI2EMemE9GrlKrgUZ8Q==
+  dependencies:
+    install-artifact-from-github "^1.2.0"
+    nan "^2.15.0"
+    node-gyp "^8.4.1"
 
 read-cmd-shim@^2.0.0:
   version "2.0.0"
