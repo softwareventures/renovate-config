@@ -16,7 +16,7 @@
   },
   "sideEffects": false,
   "engines": {
-    "node": "^12 || ^14 || >=16"
+    "node": "^14 || ^16 || >=17"
   },
   "devDependencies": {
     "@softwareventures/semantic-release-config": "2.0.0",
