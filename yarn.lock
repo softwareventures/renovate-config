@@ -1576,15 +1576,7 @@
     "@types/emscripten" "^1.38.0"
     tslib "^1.13.0"
 
-"@yarnpkg/parsers@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.4.1.tgz#3e9d834b22783245064599835ffbb17eb806497e"
-  integrity sha512-QqJ5asvS5Fol9MjTy8vS8512T2djEA0Uglu23Ap6G4AqbUWykC83bCnY4AjSyGxFV1rOlkWBn7RKsAqei/9cLw==
-  dependencies:
-    js-yaml "^3.10.0"
-    tslib "^1.13.0"
-
-"@yarnpkg/parsers@^2.4.1", "@yarnpkg/parsers@^2.5.0":
+"@yarnpkg/parsers@2.5.0", "@yarnpkg/parsers@^2.4.1", "@yarnpkg/parsers@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.5.0.tgz#adcf364cd451d43145d0838c0d8b6844730896de"
   integrity sha512-LEf3Ex+yAXSTpJKx4CEuJD1ngwDGC3pqkgPuIStThjDWpEG+p3yMDDvzES/c+9ADFQJjBQJfC0TMleV4UTNZkw==
@@ -1803,10 +1795,10 @@ auth-header@1.0.0:
   resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
   integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
 
-azure-devops-node-api@11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.1.0.tgz#ea3ca49de8583b0366d000f3c3f8a75b8104055f"
-  integrity sha512-6/2YZuf+lJzJLrjXNYEA5RXAkMCb8j/4VcHD0qJQRsgG/KsRMYo0HgDh0by1FGHyZkQWY5LmQyJqCwRVUB3Y7Q==
+azure-devops-node-api@11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.1.1.tgz#dd1356031fa4e334e016732594e8fee0f68268c4"
+  integrity sha512-XDG91XzLZ15reP12s3jFkKS8oiagSICjnLwxEYieme4+4h3ZveFOFRA4iYIG40RyHXsiI0mefFYYMFIJbMpWcg==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -5411,10 +5403,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@31.94.0:
-  version "31.94.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.94.0.tgz#b9f5550cb5c3f21baecb58c49cd2ac7400461a9b"
-  integrity sha512-4GM5WbyzqtB6JiDa91y1QWQegW19JSF14eQHZrZ3nKqDewRUGH9y9tDx/OFWDNfwozqRQixYNt8FTLqA+xgxsQ==
+renovate@31.96.0:
+  version "31.96.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.96.0.tgz#5d91bc14eb29ea5475932cb5020017941f9baaf9"
+  integrity sha512-3Fn/zwyOQii2EZ/Efa/AZmdOg8kPUK5KbMMmdxjDn80kjCOHYtk5oJZnByRtT/0e3WF4PuTXgj+7AmRN9LVl9w==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
@@ -5425,9 +5417,9 @@ renovate@31.94.0:
     "@renovatebot/ruby-semver" "1.1.2"
     "@sindresorhus/is" "4.4.0"
     "@yarnpkg/core" "3.1.0"
-    "@yarnpkg/parsers" "2.4.1"
+    "@yarnpkg/parsers" "2.5.0"
     auth-header "1.0.0"
-    azure-devops-node-api "11.1.0"
+    azure-devops-node-api "11.1.1"
     bunyan "1.8.15"
     cacache "15.3.0"
     chalk "4.1.2"
