@@ -148,6 +148,15 @@
             "patch"
           ],
           "automerge": true
+        },
+        {
+          "matchManagers": [
+            "github-actions"
+          ],
+          "matchPackagePatterns": [
+            "^actions/"
+          ],
+          "automerge": true
         }
       ],
       "prCreation": "not-pending",
