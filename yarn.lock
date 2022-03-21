@@ -4480,10 +4480,10 @@ node-gyp@*, node-gyp@^8.4.1:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-5.3.2.tgz#f7702161916011c5cc2b0cb041473c06201d9493"
-  integrity sha512-86XGwFj4chc6tKX9acq+C6asrMjXCttOZECXR8xMGV7vD3kEbHpyF+1Sf3GMoig+XYSazEGYt1Lnle/rQ45Ugw==
+node-html-parser@5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-5.3.3.tgz#2845704f3a7331a610e0e551bf5fa02b266341b6"
+  integrity sha512-ncg1033CaX9UexbyA7e1N0aAoAYRDiV8jkTvzEnfd1GDvzFdrsXLzR4p4ik8mwLgnaKP/jyUFWDy9q3jvRT2Jw==
   dependencies:
     css-select "^4.2.1"
     he "1.2.0"
@@ -5387,10 +5387,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.6.7:
-  version "32.6.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.6.7.tgz#cf27e8c8bf118b8a2d90dc546b0188a31e97c87f"
-  integrity sha512-aPVb+heObo5iK7NdnhjVJsA6sTkEQJ+E9lsWYWgXCDZUT3PTjAH3QLlgL1dXvJcE4LuvkJ3Dm46JxCFKl8Dwmw==
+renovate@32.6.8:
+  version "32.6.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.6.8.tgz#c4b6887588b4cafce89d6df0823dc69b351d31ed"
+  integrity sha512-+6ahKNA28h7lRrhERDJQA8foFS2sNe0VFfVkjbhK3PgxcZ8NmFY+awAvW1/zzWyMFdNzlw0HxBm/dn3YFaKvVg==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
@@ -5446,7 +5446,7 @@ renovate@32.6.7:
     minimatch "3.1.2"
     moo "0.5.1"
     nanoid "3.3.1"
-    node-html-parser "5.3.2"
+    node-html-parser "5.3.3"
     openpgp "5.2.0"
     p-all "3.0.0"
     p-map "4.0.0"
