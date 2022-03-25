@@ -2200,10 +2200,10 @@ columnify@*:
     strip-ansi "^6.0.1"
     wcwidth "^1.0.0"
 
-commander@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.0.0.tgz#86d58f24ee98126568936bd1d3574e0308a99a40"
-  integrity sha512-JJfP2saEKbQqvW+FI93OYUB4ByV5cizMpFMiiJI8xDbBvQvSkIk0VvQdn1CZ8mqAO8Loq2h0gYTYtDFUZUeERw==
+commander@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.1.0.tgz#a6b263b2327f2e188c6402c42623327909f2dbec"
+  integrity sha512-i0/MaqBtdbnJ4XQs4Pmyb+oFQl+q0lsAmokVUH92SlSw4fkeAcG3bVon+Qt7hmtF+u3Het6o4VgrcY3qAoEB6w==
 
 commander@^2.19.0:
   version "2.20.3"
@@ -5387,10 +5387,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.7.0:
-  version "32.7.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.7.0.tgz#59864b0472c56222a4770c2c249af0b8488ff028"
-  integrity sha512-hPCZM6QCqptqZBmpSGZoXXk+OoKUpAfbIdUCp6ySu07GKQZSC9o05SiyXrdHmCt1UsdXwy912rVwUfH8dyeAzA==
+renovate@32.7.4:
+  version "32.7.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.7.4.tgz#7d13294b8cb2e7b2bec54c8f03d6d32d5db22b7f"
+  integrity sha512-DgE3oOVTs6DE+ulVST+xlIb7QiGXgFoYgqy3b4FzhAHAo/QnOteBIG0nEkAkxvwRGdLfNnkuYphM42KNC0WqrA==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
@@ -5409,7 +5409,7 @@ renovate@32.7.0:
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "9.0.0"
+    commander "9.1.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
@@ -5459,7 +5459,7 @@ renovate@32.7.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    simple-git "3.3.0"
+    simple-git "3.4.0"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.3.1"
@@ -5756,10 +5756,10 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.3.0.tgz#91692d576f851be691124781b79872b246d2f92c"
-  integrity sha512-K9qcbbZwPHhk7MLi0k0ekvSFXJIrRoXgHhqMXAFM75qS68vdHTcuzmul1ilKI02F/4lXshVgBoDll2t++JK0PQ==
+simple-git@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.4.0.tgz#dea49dfafbc16a67b26221917fca1caaeb976e4a"
+  integrity sha512-sBRdudUc1yvi0xQQPuHXc1L9gTWkRn4hP2bbc7q4BTxR502d3JJAGsDOhrmsBY+wAZAw5JLl82tx55fSWYE65w==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
