@@ -19,7 +19,7 @@
     "node": "^14 || ^16 || >=17"
   },
   "devDependencies": {
-    "@softwareventures/semantic-release-config": "2.0.0",
+    "@softwareventures/semantic-release-config": "2.0.2",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.17.4",
     "renovate": "32.17.0",
