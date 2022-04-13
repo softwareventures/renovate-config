@@ -1044,10 +1044,18 @@
     pacote "^13.0.1"
     semver "^7.3.5"
 
-"@npmcli/move-file@^1.0.1", "@npmcli/move-file@^1.1.0", "@npmcli/move-file@^1.1.2":
+"@npmcli/move-file@^1.0.1", "@npmcli/move-file@^1.1.0":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@npmcli/move-file/-/move-file-1.1.2.tgz#1a82c3e372f7cae9253eb66d72543d6b8685c674"
   integrity sha512-1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==
+  dependencies:
+    mkdirp "^1.0.4"
+    rimraf "^3.0.2"
+
+"@npmcli/move-file@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@npmcli/move-file/-/move-file-2.0.0.tgz#417f585016081a0184cef3e38902cd917a9bbd02"
+  integrity sha512-UR6D5f4KEGWJV6BGPH3Qb2EtgH+t+1XQ1Tt85c7qicN6cezzuHPdZwwAxqZr4JLtnQu0LZsTza/5gmNmSl8XLg==
   dependencies:
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
@@ -1968,13 +1976,13 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@*, cacache@16.0.3:
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.3.tgz#0b6314bde969bd4098b03a5f90a351e8a1483f48"
-  integrity sha512-eC7wYodNCVb97kuHGk5P+xZsvUJHkhSEOyNwkenqQPAsOtrTjvWOE5vSPNBpz9d8X3acIf6w2Ub5s4rvOCTs4g==
+cacache@*, cacache@16.0.4:
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.4.tgz#66877ae82717ade4d1416d5b3caa3a870f2c6d0c"
+  integrity sha512-U0D4wF3/W8ZgK4qDA5fTtOVSr0gaDfd5aa7tUdAV0uukVWKsAIn6SzXQCoVlg7RWZiJa+bcsM3/pXLumGaL2Ug==
   dependencies:
     "@npmcli/fs" "^2.1.0"
-    "@npmcli/move-file" "^1.1.2"
+    "@npmcli/move-file" "^2.0.0"
     chownr "^2.0.0"
     fs-minipass "^2.1.0"
     glob "^7.2.0"
@@ -1988,7 +1996,7 @@ cacache@*, cacache@16.0.3:
     p-map "^4.0.0"
     promise-inflight "^1.0.1"
     rimraf "^3.0.2"
-    ssri "^8.0.1"
+    ssri "^9.0.0"
     tar "^6.1.11"
     unique-filename "^1.1.1"
 
@@ -5675,10 +5683,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.20.0:
-  version "32.20.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.20.0.tgz#f7e659f22827b036ec9d7df6bbda8d8755b8f4d3"
-  integrity sha512-3qqm/W1pQLyahMtw9kd8rJaCjAVWCNeEYfQgfGv99guwLWo9t6Dia/O2lCYM0KorpAANZ1yTdZGrVn1LINp3Yw==
+renovate@32.20.1:
+  version "32.20.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.20.1.tgz#b32134a575ea2c110f61d63ae63d3e461575a278"
+  integrity sha512-XFb4W/EO/gD1jzUU1KoDeYdJFJXNv3cVmqgm2yzFE1BUvGqTaRHlNsnw2hFh/7CwKi2YgxPdqRDCADESmFoQBQ==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
@@ -5694,7 +5702,7 @@ renovate@32.20.0:
     auth-header "1.0.0"
     azure-devops-node-api "11.1.1"
     bunyan "1.8.15"
-    cacache "16.0.3"
+    cacache "16.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
@@ -6166,7 +6174,14 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-ssri@*, ssri@^8.0.0, ssri@^8.0.1:
+ssri@*, ssri@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-9.0.0.tgz#70ad90e339eb910f1a7ff1dcf4afc268326c4547"
+  integrity sha512-Y1Z6J8UYnexKFN1R/hxUaYoY2LVdKEzziPmVAFKiKX8fiwvCJTVzn/xYE9TEWod5OVyNfIHHuVfIEuBClL/uJQ==
+  dependencies:
+    minipass "^3.1.1"
+
+ssri@^8.0.0, ssri@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
   integrity sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==
