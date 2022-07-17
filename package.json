@@ -22,7 +22,7 @@
     "@softwareventures/semantic-release-config": "2.0.2",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.17.7",
-    "renovate": "32.117.2",
+    "renovate": "32.117.4",
     "semantic-release": "19.0.3"
   },
   "config": {
