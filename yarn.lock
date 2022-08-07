@@ -3600,10 +3600,10 @@ globby@^11.0.0, globby@^11.0.1:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-good-enough-parser@1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.10.tgz#bcf5f59369f7fe3f0f621c8b2365171e4f41faf0"
-  integrity sha512-xSMiofggibG9rSt5P92ygB2tcgzgPMCVWPoI5sjnuNu5Id+p4zj4zYXkmQuKvD+c19ZUBfNCL0MFdnti/IBF1g==
+good-enough-parser@1.1.14:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.14.tgz#32a400d89cebd5e1d75828da16b86a33af8db2b8"
+  integrity sha512-HaVgaqJhU7rS7r3wprWmQOXxN8FFkjyss2cQWaJZqTL0bYE5shtpwC4aY2I7ZaMLuxhj06MRD87XqNsw8Os8uw==
   dependencies:
     "@thi.ng/zipper" "1.0.3"
     "@types/moo" "0.5.5"
@@ -5959,10 +5959,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.150.4:
-  version "32.150.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.150.4.tgz#188b4fd71edd41cd77d1f04b355e9eabfe7f2688"
-  integrity sha512-noH9YDrAY/9R0zq5bABTrBcinAkOrHUH9FAsYMDQCZJSvWhGjD9vJk+pptwwpqG8JPzFzfY9BzM/gIw95C+Kcg==
+renovate@32.151.1:
+  version "32.151.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.151.1.tgz#040c1051ce521cd9ed6f8c2c51dd340f3b3c4dea"
+  integrity sha512-zadveid+23hljbJWtq8AfCcEdVqyn6y7d4LUSYdPt/tj0IOiy75WsXke1W9KZKj2jqPLVAAruOiSR8M+FzTVWA==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -6004,7 +6004,7 @@ renovate@32.150.4:
     git-url-parse "12.0.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.10"
+    good-enough-parser "1.1.14"
     got "11.8.5"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
