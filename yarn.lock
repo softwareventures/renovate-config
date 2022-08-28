@@ -6041,10 +6041,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.179.1:
-  version "32.179.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.179.1.tgz#e3d52e0b9c430bcb7a7801867f2cc98d128f6704"
-  integrity sha512-xSf6cwH6oRPDjb9bH7pSavCAcAPXMBDXVudi/lQR5DGxhFZJKSwS9h5wzE3j34oGEGCCIYYxu08Ysr5urc5dng==
+renovate@32.180.1:
+  version "32.180.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.180.1.tgz#c487f3a26e5f12ac85a1481703948d9b7cadaef1"
+  integrity sha512-X2X9P7T/9jcXzbXySKtL3tLp0Rkr7kyI2DxqEqqsDQ+Hmew/VH2xdKvQUE4WGAlNAWAZrsITgxB8/F6fTNFhag==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
