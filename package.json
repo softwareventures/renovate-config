@@ -157,6 +157,19 @@
             "^actions/"
           ],
           "automerge": true
+        },
+        {
+          "matchManagers": [
+            "cargo"
+          ],
+          "matchPackageNames": [
+            "clap"
+          ],
+          "matchUpdateTypes": [
+            "minor",
+            "patch"
+          ],
+          "automerge": true
         }
       ],
       "prCreation": "not-pending",
