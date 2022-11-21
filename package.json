@@ -35,40 +35,40 @@
   },
   "renovate-config": {
     "app": {
-      "extends": "./app.json"
+      "extends": "github>softwareventures/renovate-config:app"
     },
     "common": {
-      "extends": "./common.json"
+      "extends": "github>softwareventures/renovate-config:common"
     },
     "common-app": {
-      "extends": "./common-app.json"
+      "extends": "github>softwareventures/renovate-config:common-app"
     },
     "common-lib": {
-      "extends": "./common-lib.json"
+      "extends": "github>softwareventures/renovate-config:common-lib"
     },
     "default": {
-      "extends": "./default.json"
+      "extends": "github>softwareventures/renovate-config:default"
     },
     "js-app": {
-      "extends": "./js-app.json"
+      "extends": "github>softwareventures/renovate-config:js-app"
     },
     "js-lib": {
-      "extends": "./js-lib.json"
+      "extends": "github>softwareventures/renovate-config:js-lib"
     },
     "lib": {
-      "extends": "./lib.json"
+      "extends": "github>softwareventures/renovate-config:lib"
     },
     "pinAllExceptPeerDependencies": {
-      "extends": "./pinAllExceptPeerDependencies.json"
+      "extends": "github>softwareventures/renovate-config:pinAllExceptPeerDependencies"
     },
     "pinOnlyDevDependencies": {
-      "extends": "./pinOnlyDevDependencies.json"
+      "extends": "github>softwareventures/renovate-config:pinOnlyDevDependencies"
     },
     "rust-app": {
-      "extends": "./rust-app.json"
+      "extends": "github>softwareventures/renovate-config:rust-app"
     },
     "rust-lib": {
-      "extends": "./rust-lib.json"
+      "extends": "github>softwareventures/renovate-config:rust-lib"
     }
   }
 }
