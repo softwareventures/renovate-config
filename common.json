@@ -27,6 +27,12 @@
       "matchDepTypes": [
         "devDependencies"
       ],
+      "semanticCommitType": "build"
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
       "automerge": true,
       "matchUpdateTypes": [
         "minor",
