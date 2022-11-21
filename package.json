@@ -32,5 +32,43 @@
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
+  },
+  "renovate-config": {
+    "app": {
+      "extends": "./app.json"
+    },
+    "common": {
+      "extends": "./common.json"
+    },
+    "common-app": {
+      "extends": "./common-app.json"
+    },
+    "common-lib": {
+      "extends": "./common-lib.json"
+    },
+    "default": {
+      "extends": "./default.json"
+    },
+    "js-app": {
+      "extends": "./js-app.json"
+    },
+    "js-lib": {
+      "extends": "./js-lib.json"
+    },
+    "lib": {
+      "extends": "./lib.json"
+    },
+    "pinAllExceptPeerDependencies": {
+      "extends": "./pinAllExceptPeerDependencies.json"
+    },
+    "pinOnlyDevDependencies": {
+      "extends": "./pinOnlyDevDependencies.json"
+    },
+    "rust-app": {
+      "extends": "./rust-app.json"
+    },
+    "rust-lib": {
+      "extends": "./rust-lib.json"
+    }
   }
 }
