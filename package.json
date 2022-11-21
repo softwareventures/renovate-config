@@ -11,7 +11,6 @@
   "repository": "github:softwareventures/renovate-config",
   "license": "ISC",
   "scripts": {
-    "semantic-release": "semantic-release",
     "test": "renovate-config-validator default.json app.json lib.json"
   },
   "sideEffects": false,
@@ -19,56 +18,13 @@
     "node": "^14 || ^16 || >=18"
   },
   "devDependencies": {
-    "@softwareventures/semantic-release-config": "3.0.0",
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.17.7",
-    "renovate": "34.29.2",
-    "semantic-release": "19.0.5"
+    "renovate": "34.29.2"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "release": {
-    "extends": "@softwareventures/semantic-release-config"
-  },
-  "renovate-config": {
-    "app": {
-      "extends": "github>softwareventures/renovate-config:app"
-    },
-    "common": {
-      "extends": "github>softwareventures/renovate-config:common"
-    },
-    "common-app": {
-      "extends": "github>softwareventures/renovate-config:common-app"
-    },
-    "common-lib": {
-      "extends": "github>softwareventures/renovate-config:common-lib"
-    },
-    "default": {
-      "extends": "github>softwareventures/renovate-config:default"
-    },
-    "js-app": {
-      "extends": "github>softwareventures/renovate-config:js-app"
-    },
-    "js-lib": {
-      "extends": "github>softwareventures/renovate-config:js-lib"
-    },
-    "lib": {
-      "extends": "github>softwareventures/renovate-config:lib"
-    },
-    "pinAllExceptPeerDependencies": {
-      "extends": "github>softwareventures/renovate-config:pinAllExceptPeerDependencies"
-    },
-    "pinOnlyDevDependencies": {
-      "extends": "github>softwareventures/renovate-config:pinOnlyDevDependencies"
-    },
-    "rust-app": {
-      "extends": "github>softwareventures/renovate-config:rust-app"
-    },
-    "rust-lib": {
-      "extends": "github>softwareventures/renovate-config:rust-lib"
     }
   }
 }
