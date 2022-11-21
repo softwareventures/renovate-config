@@ -1,0 +1,6 @@
+{
+  "description": "Obsolete, use @softwareventures:lib instead",
+  "extends": [
+    "@softwareventures:lib"
+  ]
+}

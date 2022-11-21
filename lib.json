@@ -1,0 +1,31 @@
+{
+  "description": "Standard Renovate rules for Software Ventures libraries (any language)",
+  "extends": [
+    "@softwareventures:common",
+    "@softwareventures:pinOnlyDevDependencies"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "semanticCommitType": "chore",
+      "automerge": true,
+      "major": {
+        "semanticCommitType": "fix",
+        "automerge": false
+      }
+    },
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchCurrentVersion": "<1",
+      "semanticCommitType": "fix",
+      "automerge": false,
+      "matchUpdateTypes": [
+        "minor"
+      ]
+    }
+  ]
+}

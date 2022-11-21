@@ -1,0 +1,15 @@
+{
+  "description": "Standard Renovate rules for Software Ventures applications (any language)",
+  "extends": [
+    "@softwareventures:common",
+    "@softwareventures:pinAllExceptPeerDependencies"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "semanticCommitType": "fix"
+    }
+  ]
+}

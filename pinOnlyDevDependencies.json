@@ -1,0 +1,17 @@
+{
+  "description": "Pin dependency versions for <code>devDependencies</code> and widen others",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "rangeStrategy": "pin"
+    }
+  ]
+}

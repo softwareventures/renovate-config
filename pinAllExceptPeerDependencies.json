@@ -1,0 +1,18 @@
+{
+  "description": "Widen <code>peerDependencies</code>, pin everything else",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
+      "matchDepTypes": [
+        "engines",
+        "peerDependencies"
+      ],
+      "rangeStrategy": "widen"
+    }
+  ]
+}

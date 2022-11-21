@@ -1,0 +1,6 @@
+{
+  "description": "Obsolete, use @softwareventures:app instead",
+  "extends": [
+    "@softwareventures:app"
+  ]
+}

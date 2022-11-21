@@ -1,0 +1,139 @@
+{
+  "description": "Common rules shared by @softwareventures:lib and @softwareventures:app",
+  "extends": [
+    ":automergeBranch",
+    ":semanticCommits",
+    ":maintainLockFilesWeekly"
+  ],
+  "baseBranches": [
+    "main",
+    "master",
+    "alpha",
+    "beta",
+    "next",
+    "next-major"
+  ],
+  "github-actions": {
+    "enabled": true
+  },
+  "pin": {
+    "automerge": true
+  },
+  "lockFileMaintenance": {
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "automerge": true,
+      "matchManagers": [
+        "gradle-wrapper"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@types/",
+        "^@softwareventures/",
+        "^@dcgw/",
+        "^dictionary-types$",
+        "^promise-ponyfill$",
+        "^i32$",
+        "^u32$",
+        "^semantic-release-s3-upload$",
+        "^snyk$",
+        "^tslib$",
+        "^typescript$",
+        "^is-integer-in-range$",
+        "^preact$",
+        "^aws-sdk$",
+        "^postcss$",
+        "^jsdom$",
+        "^get-stream$",
+        "^webpack$",
+        "^dotenv$",
+        "^trim-newlines$",
+        "^electron$",
+        "^simple-git$",
+        "^node-releases$",
+        "^electron-store$",
+        "^acorn$",
+        "^escodegen$",
+        "^yarn$",
+        "^xml-formatter$"
+      ],
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@types/node$"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false
+    },
+    {
+      "matchManagers": [
+        "gradle"
+      ],
+      "matchPackagePatterns": [
+        "^com.android.tools.build:"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackagePatterns": [
+        "^actions/"
+      ],
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackageNames": [
+        "clap"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    }
+  ],
+  "prCreation": "not-pending",
+  "postUpdateOptions": [
+    "npmDedupe",
+    "yarnDedupeHighest"
+  ]
+}
