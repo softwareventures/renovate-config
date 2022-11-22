@@ -20,7 +20,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
     "re2": "1.17.7",
-    "renovate": "34.30.0"
+    "renovate": "34.30.2"
   },
   "config": {
     "commitizen": {
