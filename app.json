@@ -11,5 +11,8 @@
       ],
       "semanticCommitType": "fix"
     }
-  ]
+  ],
+  "lockFileMaintenance": {
+    "semanticCommitType": "fix"
+  }
 }
