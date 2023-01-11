@@ -135,6 +135,15 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/"
+      ],
+      "groupName": "typescript-eslint"
     }
   ],
   "prCreation": "not-pending",
