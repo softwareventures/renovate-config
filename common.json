@@ -81,7 +81,8 @@
         "^acorn$",
         "^escodegen$",
         "^yarn$",
-        "^xml-formatter$"
+        "^xml-formatter$",
+        "^@commitlint/"
       ],
       "automerge": true,
       "matchUpdateTypes": [
