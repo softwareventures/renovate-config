@@ -145,6 +145,15 @@
         "^@typescript-eslint/"
       ],
       "groupName": "typescript-eslint"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@commitlint/"
+      ],
+      "groupName": "commitlint"
     }
   ],
   "prCreation": "not-pending",
