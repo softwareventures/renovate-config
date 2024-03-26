@@ -40,6 +40,12 @@
       ]
     },
     {
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "semanticCommitType": "feat"
+    },
+    {
       "automerge": true,
       "matchManagers": [
         "gradle-wrapper"
