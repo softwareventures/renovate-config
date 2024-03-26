@@ -9,7 +9,7 @@
       "matchDepTypes": [
         "dependencies"
       ],
-      "semanticCommitType": "chore",
+      "semanticCommitType": "build",
       "automerge": true,
       "major": {
         "semanticCommitType": "fix",
