@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "engines": {
-    "node": "^14 || ^16 || >=18"
+    "node": "^18 || ^20 || >=21"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
