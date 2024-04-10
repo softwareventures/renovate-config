@@ -1154,7 +1154,7 @@
     "@octokit/types" "^13.0.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^20.0.2":
+"@octokit/rest@^20.1.0":
   version "20.1.0"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-20.1.0.tgz#78310528f4849a69b44b15ccd27f99c7e737bb7d"
   integrity sha512-STVO3itHQLrp80lvcYB2UIKoeil5Ctsgd2s1AM+du3HqZIR35ZH7WE9HLwUOLXH0myA0y3AGNPo8gZtcgIbw0g==
@@ -1183,14 +1183,7 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@opentelemetry/api-logs@0.49.1", "@opentelemetry/api-logs@^0.49.1":
-  version "0.49.1"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.49.1.tgz#51a66ed5eb5eeeafffbd36c1713aa91cbfdd5259"
-  integrity sha512-kaNl/T7WzyMUQHQlVq7q0oV4Kev6+0xFwqzofryC66jgGMacd0QH5TwfpbUwSTby+SdAdprAe5UKMvBw4tKS5Q==
-  dependencies:
-    "@opentelemetry/api" "^1.0.0"
-
-"@opentelemetry/api-logs@0.50.0":
+"@opentelemetry/api-logs@0.50.0", "@opentelemetry/api-logs@^0.50.0":
   version "0.50.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.50.0.tgz#d46b76daab0bc18fa92dcdabacfc106c380d19a1"
   integrity sha512-JdZuKrhOYggqOpUljAq4WWNi5nB10PmgoF0y2CvedLGXd0kSawb/UBnWT8gg1ND3bHCNHStAIVT0ELlxJJRqrA==
@@ -1225,13 +1218,13 @@
     "@opentelemetry/resources" "1.23.0"
     "@opentelemetry/sdk-trace-base" "1.23.0"
 
-"@opentelemetry/instrumentation-bunyan@0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.36.0.tgz#89364e94b56351ed5f7ed5d77bcd21bfc863abcd"
-  integrity sha512-sHD5BSiqSrgWow7VmugEFzV8vGdsz5m+w1v9tK6YwRzuAD7vbo57chluq+UBzIqStoCH+0yOzRzSALH7hrfffg==
+"@opentelemetry/instrumentation-bunyan@0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.37.0.tgz#b8268b4703be207ff3f64f998c320aa3aa01f9dd"
+  integrity sha512-NKHuTIn1JrxfKZ8sVZjwT/bD3wyijkipiWzBvvxGj8pJJJNP5shVHWcEJhk5tQsfKQc4LproTAPdklex1o5/ag==
   dependencies:
-    "@opentelemetry/api-logs" "^0.49.1"
-    "@opentelemetry/instrumentation" "^0.49.1"
+    "@opentelemetry/api-logs" "^0.50.0"
+    "@opentelemetry/instrumentation" "^0.50.0"
     "@types/bunyan" "1.8.9"
 
 "@opentelemetry/instrumentation-http@0.50.0":
@@ -1244,24 +1237,12 @@
     "@opentelemetry/semantic-conventions" "1.23.0"
     semver "^7.5.2"
 
-"@opentelemetry/instrumentation@0.50.0":
+"@opentelemetry/instrumentation@0.50.0", "@opentelemetry/instrumentation@^0.50.0":
   version "0.50.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.50.0.tgz#c558cfc64b84c11d304f31ccdf0de312ec60a2c9"
   integrity sha512-bhGhbJiZKpuu7wTaSak4hyZcFPlnDeuSF/2vglze8B4w2LubcSbbOnkVTzTs5SXtzh4Xz8eRjaNnAm+u2GYufQ==
   dependencies:
     "@opentelemetry/api-logs" "0.50.0"
-    "@types/shimmer" "^1.0.2"
-    import-in-the-middle "1.7.1"
-    require-in-the-middle "^7.1.1"
-    semver "^7.5.2"
-    shimmer "^1.2.1"
-
-"@opentelemetry/instrumentation@^0.49.1":
-  version "0.49.1"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.49.1.tgz#1b95e5f9448a96e7af97e03846772829439a9a91"
-  integrity sha512-0DLtWtaIppuNNRRllSD4bjU8ZIiLp1cDXvJEbp752/Zf+y3gaLNaoGRGIlX4UHhcsrmtL+P2qxi3Hodi8VuKiQ==
-  dependencies:
-    "@opentelemetry/api-logs" "0.49.1"
     "@types/shimmer" "^1.0.2"
     import-in-the-middle "1.7.1"
     require-in-the-middle "^7.1.1"
@@ -1471,12 +1452,12 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.3.tgz#25a3d2640feda7fec3c39cf1eaeaf9986aa166ff"
-  integrity sha512-HA7j8mCKZoK9HNgo/e+jYus0pmPHvhPemtrcmjNvhNLaOzaEAQZ6f8JDXdd1xqhOeGYyv63IrM8SynR6ZAXD4Q==
+"@renovatebot/osv-offline@1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.4.tgz#9a8e87c68a2ecde9d476e7751d964a062cdbe104"
+  integrity sha512-oXOi3kMvIe4Yl2S73iy/iGU7mpB8WhtPEjiLUvFAexbo61Mcs0eN2k3VUL+W+52igmeOR3sIIrD83/vH1mHrZA==
   dependencies:
-    "@octokit/rest" "^20.0.2"
+    "@octokit/rest" "^20.1.0"
     "@renovatebot/osv-offline-db" "1.6.0"
     adm-zip "~0.5.12"
     fs-extra "^11.2.0"
@@ -5059,10 +5040,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.282.1:
-  version "37.282.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.282.1.tgz#dca6ffc905c228d2c4e3bddf8d8d50a40de6ca1c"
-  integrity sha512-b27xtGJUF6tHiiav/Qe4wBbPC+tKBYIEoTKSG90V7oo+Sfvwjx2drtCiaQerVPB+a7gEvc5cffVSmmEU85oOAg==
+renovate@37.284.0:
+  version "37.284.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.284.0.tgz#ea2cf69c19a4af6f462af72feebab595eda5f4c4"
+  integrity sha512-MRQAoKHf5Hpac2bnZ7yllsnuufFBzzD+Oe1XLcf+YuRchWwPZO4uVlF1COe0qhiJweJdW+tbCtDumEBsyi3huw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -5076,14 +5057,14 @@ renovate@37.282.1:
     "@opentelemetry/context-async-hooks" "1.23.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.50.0"
     "@opentelemetry/instrumentation" "0.50.0"
-    "@opentelemetry/instrumentation-bunyan" "0.36.0"
+    "@opentelemetry/instrumentation-bunyan" "0.37.0"
     "@opentelemetry/instrumentation-http" "0.50.0"
     "@opentelemetry/resources" "1.23.0"
     "@opentelemetry/sdk-trace-base" "1.23.0"
     "@opentelemetry/sdk-trace-node" "1.23.0"
     "@opentelemetry/semantic-conventions" "1.23.0"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.5.3"
+    "@renovatebot/osv-offline" "1.5.4"
     "@renovatebot/pep440" "3.0.19"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
