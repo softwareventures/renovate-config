@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
-    "re2": "1.20.12",
+    "re2": "1.21.0",
     "renovate": "37.382.5"
   },
   "config": {
