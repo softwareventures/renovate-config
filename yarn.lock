@@ -2483,10 +2483,10 @@ before-after-hook@^2.2.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.3.tgz#c51e809c81a4e354084422b9b26bad88249c517c"
   integrity sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==
 
-better-sqlite3@9.6.0:
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.6.0.tgz#b01e58ba7c48abcdc0383b8301206ee2ab81d271"
-  integrity sha512-yR5HATnqeYNVnkaUTf4bOP2dJSnyhP4puJN/QPRyx4YkBEEUxib422n2XzPqDEHjQQqazoYoADdAm5vE15+dAQ==
+better-sqlite3@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.0.0.tgz#12083acfe0ded6abdba908ed73520f2003e3ea0e"
+  integrity sha512-1NnNhmT3EZTsKtofJlMox1jkMxdedILury74PwUbQBjWgo4tL4kf7uTAjU55mgQwjdzqakSTjkf+E1imrFwjnA==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -4481,10 +4481,10 @@ jsonata@2.0.5:
   resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.5.tgz#2b3b5098c019b264c4fae061a9cb24d59c7115a2"
   integrity sha512-wEse9+QLIIU5IaCgtJCPsFi/H4F3qcikWzF4bAELZiRz08ohfx3Q6CjDRf4ZPF5P/92RI3KIHtb7u3jqPaHXdQ==
 
-jsonc-parser@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.1.tgz#031904571ccf929d7670ee8c547545081cb37f1a"
-  integrity sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==
+jsonc-parser@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.3.1.tgz#f2a524b4f7fd11e3d791e559977ad60b98b798b4"
+  integrity sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==
 
 jsonfile@^6.0.1:
   version "6.1.0"
@@ -5660,10 +5660,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.421.5:
-  version "37.421.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.421.5.tgz#ae709b866c2b001475b95ab97ac5956a729d7e70"
-  integrity sha512-LKKf6v3ZpSPeZbCl2VH4uYDjX1/lhOWzgPop56hdbg9IcnzjbDUSLyUE4UbjuTCcHuUg7iL5QURQ4ZNRyYBHaA==
+renovate@37.421.7:
+  version "37.421.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.421.7.tgz#a13642a34b2c4847d574b4a4f1c18e31b08a56b9"
+  integrity sha512-slNSYJriEod8tWRkwVmndXONLo9ooLxzpS17uaVYdSAW8KNwuWNh7iCGhyvpIG/EX4zCN/BQZoJbGgmTvKOojA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5734,7 +5734,7 @@ renovate@37.421.5:
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.3"
     jsonata "2.0.5"
-    jsonc-parser "3.2.1"
+    jsonc-parser "3.3.1"
     klona "2.0.6"
     lru-cache "10.2.2"
     luxon "3.4.4"
@@ -5772,7 +5772,7 @@ renovate@37.421.5:
     xmldoc "1.3.0"
     zod "3.23.8"
   optionalDependencies:
-    better-sqlite3 "9.6.0"
+    better-sqlite3 "11.0.0"
     openpgp "5.11.2"
     re2 "1.21.3"
 
