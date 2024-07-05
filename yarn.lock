@@ -4656,12 +4656,7 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lru-cache@10.2.2:
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.2.tgz#48206bc114c1252940c41b25b41af5b545aca878"
-  integrity sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==
-
-lru-cache@^10.0.1, lru-cache@^10.2.0:
+lru-cache@10.3.0, lru-cache@^10.0.1, lru-cache@^10.2.0:
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.3.0.tgz#4a4aaf10c84658ab70f79a85a9a3f1e1fb11196b"
   integrity sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==
@@ -5666,10 +5661,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.424.0:
-  version "37.424.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.424.0.tgz#c93c7a4c3bafd11fbfc5b00f70ca4271448987bb"
-  integrity sha512-umKdMW5Y4wEYfM7jQ8uMSTVIQ5JGTsIBDTghY54lGJFad3E3QWyR25ctEEgIlzt1K8pQIMOEwMoKBpIWpyqfUQ==
+renovate@37.424.1:
+  version "37.424.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.424.1.tgz#b92864837fd0f6bd933b1f5a6ea4c1a61bf8bb1a"
+  integrity sha512-XdB1QgsgB3uZOnyYzLyJgHNEKcCGUq745Gc7j7PcpFQ14dBfyk/UD/wwN9+fCPWyBnWt3v63WOl/J+9JJMe10A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5742,7 +5737,7 @@ renovate@37.424.0:
     jsonata "2.0.5"
     jsonc-parser "3.3.1"
     klona "2.0.6"
-    lru-cache "10.2.2"
+    lru-cache "10.3.0"
     luxon "3.4.4"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
