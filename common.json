@@ -88,8 +88,7 @@
         "^escodegen$",
         "^yarn$",
         "^xml-formatter$",
-        "^@commitlint/",
-        "^yarnpkg/berry$"
+        "^@commitlint/"
       ],
       "automerge": true,
       "matchUpdateTypes": [
@@ -173,6 +172,19 @@
         "web-sys"
       ],
       "groupName": "wasm"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "packageManager"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "prCreation": "not-pending",
