@@ -185,6 +185,15 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackageNames": [
+        "embassy-*"
+      ],
+      "groupName": "embassy"
     }
   ],
   "prCreation": "not-pending",
