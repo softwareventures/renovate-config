@@ -194,6 +194,16 @@
         "embassy-*"
       ],
       "groupName": "embassy"
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "prCreation": "not-pending",
