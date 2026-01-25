@@ -5878,10 +5878,10 @@ re2@1.21.3:
     nan "^2.20.0"
     node-gyp "^10.1.0"
 
-re2@1.23.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.0.tgz#a02f4a45691121fefd9f7dc50c6acf74da9bc5dd"
-  integrity sha512-mT7+/Lz+Akjm/C/X6PiaHihcJL92TNNXai/C4c/dfBbhtwMm1uKEEoA2Lz/FF6aBFfQzg5mAyv4BGjM4q44QwQ==
+re2@1.23.1:
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.1.tgz#8e774e5df6ed098e3d4efb482c90d231d6cc8460"
+  integrity sha512-S5UHlgjCp84BGyciTQgSxcQJD4H51l4iNk8drGWQCWAYDr71C4lHEf+DxmAoLoGRwEYzOcV7v4LSXrx0hFc/pQ==
   dependencies:
     install-artifact-from-github "^1.4.0"
     nan "^2.24.0"
