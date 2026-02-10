@@ -5318,7 +5318,7 @@ mv@~2:
     ncp "~2.0.0"
     rimraf "~2.4.0"
 
-nan@^2.14.0, nan@^2.20.0, nan@^2.24.0:
+nan@^2.14.0, nan@^2.20.0, nan@^2.25.0:
   version "2.25.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.25.0.tgz#937ed345e63d9481362a7942d49c4860d27eeabd"
   integrity sha512-0M90Ag7Xn5KMLLZ7zliPWP3rT90P6PN+IzVFS0VqmnPktBk3700xUVv8Ikm9EUaUE5SDWdp/BIxdENzVznpm1g==
@@ -5383,7 +5383,7 @@ node-gyp@^10.1.0:
     tar "^6.2.1"
     which "^4.0.0"
 
-node-gyp@^12.1.0:
+node-gyp@^12.2.0:
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-12.2.0.tgz#ff73f6f509e33d8b7e768f889ffc9738ad117b07"
   integrity sha512-q23WdzrQv48KozXlr0U1v9dwO/k59NHeSzn6loGcasyf0UnSrtzs8kRxM+mfwJSf0DkX0s43hcqgnSO4/VNthQ==
@@ -5889,14 +5889,14 @@ re2@1.21.3:
     nan "^2.20.0"
     node-gyp "^10.1.0"
 
-re2@1.23.2:
-  version "1.23.2"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.2.tgz#2f0bcb86d6ace4534527b6adb7c94fa97f59e187"
-  integrity sha512-ds5iwbnfsmyiNDtuljBNAva54O4jhR77jL5bSM73NnsWQHkYoGWuePiZTrt6O3xXAHtrB/fviNQsPGRei6031w==
+re2@1.23.3:
+  version "1.23.3"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.3.tgz#e6defe647e987baaa145ee66475d88e6ce7cf7c5"
+  integrity sha512-5jh686rmj/8dYpBo72XYgwzgG8Y9HNDATYZ1x01gqZ6FvXVUP33VZ0+6GLCeavaNywz3OkXBU8iNX7LjiuisPg==
   dependencies:
     install-artifact-from-github "^1.4.0"
-    nan "^2.24.0"
-    node-gyp "^12.1.0"
+    nan "^2.25.0"
+    node-gyp "^12.2.0"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
